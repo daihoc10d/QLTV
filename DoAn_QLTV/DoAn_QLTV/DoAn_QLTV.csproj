@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,11 +49,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportToExcel.cs" />
+    <Compile Include="FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDocGia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDocGia.Designer.cs">
       <DependentUpon>FormDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoiMK.Designer.cs">
+      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThemTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThemTK.Designer.cs">
+      <DependentUpon>FormThemTK.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTKDG.cs">
       <SubType>Form</SubType>
@@ -121,11 +149,23 @@
       <DependentUpon>FormTheLoai.cs</DependentUpon>
     </Compile>
     <Compile Include="Themsuaxoa.cs" />
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDocGia.resx">
       <DependentUpon>FormDocGia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDoiMK.resx">
+      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMuonTra.resx">
       <DependentUpon>FormMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThemTK.resx">
+      <DependentUpon>FormThemTK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTKDG.resx">
       <DependentUpon>FormTKDG.cs</DependentUpon>
@@ -178,6 +218,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

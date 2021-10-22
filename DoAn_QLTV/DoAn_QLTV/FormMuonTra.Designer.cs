@@ -32,12 +32,13 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab1 = new System.Windows.Forms.TabPage();
-            this.luu = new System.Windows.Forms.Button();
-            this.thoat = new System.Windows.Forms.Button();
-            this.xoa = new System.Windows.Forms.Button();
-            this.sua = new System.Windows.Forms.Button();
-            this.them = new System.Windows.Forms.Button();
-            this.luoi = new System.Windows.Forms.DataGridView();
+            this.btnLoad = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.dgvPM = new System.Windows.Forms.DataGridView();
             this.comnhanvien = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comdocgia = new System.Windows.Forms.ComboBox();
@@ -46,15 +47,15 @@ namespace DoAn_QLTV
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tab2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnLoad = new System.Windows.Forms.Button();
+            this.btnThoat2 = new System.Windows.Forms.Button();
+            this.btnLoad2 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.l = new System.Windows.Forms.Label();
-            this.luu1 = new System.Windows.Forms.Button();
-            this.xoa1 = new System.Windows.Forms.Button();
-            this.sua1 = new System.Windows.Forms.Button();
-            this.them1 = new System.Windows.Forms.Button();
-            this.luoi1 = new System.Windows.Forms.DataGridView();
+            this.btnLuu2 = new System.Windows.Forms.Button();
+            this.btnXoa2 = new System.Windows.Forms.Button();
+            this.btnSua2 = new System.Windows.Forms.Button();
+            this.btnThem2 = new System.Windows.Forms.Button();
+            this.dgvCTPM = new System.Windows.Forms.DataGridView();
             this.ghichu = new System.Windows.Forms.RichTextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.ngaytra = new System.Windows.Forms.DateTimePicker();
@@ -66,13 +67,12 @@ namespace DoAn_QLTV
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.btnX = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tab1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPM)).BeginInit();
             this.tab2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTPM)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -94,17 +94,17 @@ namespace DoAn_QLTV
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(819, 622);
-            this.tabControl1.TabIndex = 3;
+            this.tabControl1.TabIndex = 23;
             // 
             // tab1
             // 
-            this.tab1.Controls.Add(this.button2);
-            this.tab1.Controls.Add(this.luu);
-            this.tab1.Controls.Add(this.thoat);
-            this.tab1.Controls.Add(this.xoa);
-            this.tab1.Controls.Add(this.sua);
-            this.tab1.Controls.Add(this.them);
-            this.tab1.Controls.Add(this.luoi);
+            this.tab1.Controls.Add(this.btnLoad);
+            this.tab1.Controls.Add(this.btnLuu);
+            this.tab1.Controls.Add(this.btnThoat);
+            this.tab1.Controls.Add(this.btnXoa);
+            this.tab1.Controls.Add(this.btnSua);
+            this.tab1.Controls.Add(this.btnThem);
+            this.tab1.Controls.Add(this.dgvPM);
             this.tab1.Controls.Add(this.comnhanvien);
             this.tab1.Controls.Add(this.label5);
             this.tab1.Controls.Add(this.comdocgia);
@@ -121,70 +121,87 @@ namespace DoAn_QLTV
             this.tab1.Text = "Lập phiếu mượn";
             this.tab1.UseVisualStyleBackColor = true;
             // 
-            // luu
+            // btnLoad
             // 
-            this.luu.Enabled = false;
-            this.luu.Location = new System.Drawing.Point(46, 227);
-            this.luu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.luu.Name = "luu";
-            this.luu.Size = new System.Drawing.Size(75, 30);
-            this.luu.TabIndex = 46;
-            this.luu.Text = "Lưu";
-            this.luu.UseVisualStyleBackColor = true;
+            this.btnLoad.Location = new System.Drawing.Point(208, 189);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 7, 3, 7);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(75, 30);
+            this.btnLoad.TabIndex = 6;
+            this.btnLoad.Text = "Load";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
-            // thoat
+            // btnLuu
             // 
-            this.thoat.Location = new System.Drawing.Point(208, 227);
-            this.thoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.thoat.Name = "thoat";
-            this.thoat.Size = new System.Drawing.Size(75, 30);
-            this.thoat.TabIndex = 45;
-            this.thoat.Text = "Thoát";
-            this.thoat.UseVisualStyleBackColor = true;
+            this.btnLuu.Enabled = false;
+            this.btnLuu.Location = new System.Drawing.Point(46, 227);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(75, 30);
+            this.btnLuu.TabIndex = 7;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
-            // xoa
+            // btnThoat
             // 
-            this.xoa.Location = new System.Drawing.Point(127, 227);
-            this.xoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.xoa.Name = "xoa";
-            this.xoa.Size = new System.Drawing.Size(75, 30);
-            this.xoa.TabIndex = 44;
-            this.xoa.Text = "Xóa";
-            this.xoa.UseVisualStyleBackColor = true;
+            this.btnThoat.Location = new System.Drawing.Point(208, 227);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(75, 30);
+            this.btnThoat.TabIndex = 9;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // sua
+            // btnXoa
             // 
-            this.sua.Location = new System.Drawing.Point(127, 189);
-            this.sua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sua.Name = "sua";
-            this.sua.Size = new System.Drawing.Size(75, 30);
-            this.sua.TabIndex = 43;
-            this.sua.Text = "Sửa";
-            this.sua.UseVisualStyleBackColor = true;
+            this.btnXoa.Location = new System.Drawing.Point(127, 227);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(75, 30);
+            this.btnXoa.TabIndex = 8;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
-            // them
+            // btnSua
             // 
-            this.them.Location = new System.Drawing.Point(46, 189);
-            this.them.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.them.Name = "them";
-            this.them.Size = new System.Drawing.Size(75, 30);
-            this.them.TabIndex = 42;
-            this.them.Text = "Thêm";
-            this.them.UseVisualStyleBackColor = true;
+            this.btnSua.Location = new System.Drawing.Point(127, 189);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(75, 30);
+            this.btnSua.TabIndex = 5;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
-            // luoi
+            // btnThem
             // 
-            this.luoi.AllowUserToAddRows = false;
-            this.luoi.AllowUserToDeleteRows = false;
-            this.luoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnThem.Location = new System.Drawing.Point(46, 189);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(75, 30);
+            this.btnThem.TabIndex = 4;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // dgvPM
+            // 
+            this.dgvPM.AllowUserToAddRows = false;
+            this.dgvPM.AllowUserToDeleteRows = false;
+            this.dgvPM.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.luoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.luoi.Location = new System.Drawing.Point(318, 45);
-            this.luoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.luoi.Name = "luoi";
-            this.luoi.Size = new System.Drawing.Size(451, 344);
-            this.luoi.TabIndex = 26;
+            this.dgvPM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPM.Location = new System.Drawing.Point(318, 45);
+            this.dgvPM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvPM.Name = "dgvPM";
+            this.dgvPM.Size = new System.Drawing.Size(451, 344);
+            this.dgvPM.TabIndex = 26;
+            this.dgvPM.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvPM_CellMouseClick);
             // 
             // comnhanvien
             // 
@@ -193,7 +210,7 @@ namespace DoAn_QLTV
             this.comnhanvien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comnhanvien.Name = "comnhanvien";
             this.comnhanvien.Size = new System.Drawing.Size(140, 24);
-            this.comnhanvien.TabIndex = 8;
+            this.comnhanvien.TabIndex = 3;
             // 
             // label5
             // 
@@ -212,7 +229,7 @@ namespace DoAn_QLTV
             this.comdocgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comdocgia.Name = "comdocgia";
             this.comdocgia.Size = new System.Drawing.Size(140, 24);
-            this.comdocgia.TabIndex = 6;
+            this.comdocgia.TabIndex = 2;
             // 
             // label4
             // 
@@ -230,7 +247,7 @@ namespace DoAn_QLTV
             this.txtmaphieu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmaphieu.Name = "txtmaphieu";
             this.txtmaphieu.Size = new System.Drawing.Size(140, 23);
-            this.txtmaphieu.TabIndex = 4;
+            this.txtmaphieu.TabIndex = 1;
             // 
             // label3
             // 
@@ -255,15 +272,15 @@ namespace DoAn_QLTV
             // 
             // tab2
             // 
-            this.tab2.Controls.Add(this.button1);
-            this.tab2.Controls.Add(this.btnLoad);
+            this.tab2.Controls.Add(this.btnThoat2);
+            this.tab2.Controls.Add(this.btnLoad2);
             this.tab2.Controls.Add(this.label12);
             this.tab2.Controls.Add(this.l);
-            this.tab2.Controls.Add(this.luu1);
-            this.tab2.Controls.Add(this.xoa1);
-            this.tab2.Controls.Add(this.sua1);
-            this.tab2.Controls.Add(this.them1);
-            this.tab2.Controls.Add(this.luoi1);
+            this.tab2.Controls.Add(this.btnLuu2);
+            this.tab2.Controls.Add(this.btnXoa2);
+            this.tab2.Controls.Add(this.btnSua2);
+            this.tab2.Controls.Add(this.btnThem2);
+            this.tab2.Controls.Add(this.dgvCTPM);
             this.tab2.Controls.Add(this.ghichu);
             this.tab2.Controls.Add(this.label11);
             this.tab2.Controls.Add(this.ngaytra);
@@ -284,27 +301,29 @@ namespace DoAn_QLTV
             this.tab2.Text = "Chi tiết mượn-trả";
             this.tab2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnThoat2
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(650, 209);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 30);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Thoát";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThoat2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThoat2.Location = new System.Drawing.Point(650, 209);
+            this.btnThoat2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThoat2.Name = "btnThoat2";
+            this.btnThoat2.Size = new System.Drawing.Size(80, 30);
+            this.btnThoat2.TabIndex = 20;
+            this.btnThoat2.Text = "Thoát";
+            this.btnThoat2.UseVisualStyleBackColor = true;
+            this.btnThoat2.Click += new System.EventHandler(this.btnThoat2_Click);
             // 
-            // btnLoad
+            // btnLoad2
             // 
-            this.btnLoad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLoad.Location = new System.Drawing.Point(650, 128);
-            this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(80, 30);
-            this.btnLoad.TabIndex = 25;
-            this.btnLoad.Text = "Load";
-            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLoad2.Location = new System.Drawing.Point(650, 128);
+            this.btnLoad2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLoad2.Name = "btnLoad2";
+            this.btnLoad2.Size = new System.Drawing.Size(80, 30);
+            this.btnLoad2.TabIndex = 18;
+            this.btnLoad2.Text = "Load";
+            this.btnLoad2.UseVisualStyleBackColor = true;
+            this.btnLoad2.Click += new System.EventHandler(this.btnLoad2_Click);
             // 
             // label12
             // 
@@ -325,63 +344,68 @@ namespace DoAn_QLTV
             this.l.TabIndex = 23;
             this.l.Text = "soluong";
             // 
-            // luu1
+            // btnLuu2
             // 
-            this.luu1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.luu1.Location = new System.Drawing.Point(650, 90);
-            this.luu1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.luu1.Name = "luu1";
-            this.luu1.Size = new System.Drawing.Size(80, 30);
-            this.luu1.TabIndex = 22;
-            this.luu1.Text = "Lưu";
-            this.luu1.UseVisualStyleBackColor = true;
+            this.btnLuu2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLuu2.Location = new System.Drawing.Point(650, 90);
+            this.btnLuu2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLuu2.Name = "btnLuu2";
+            this.btnLuu2.Size = new System.Drawing.Size(80, 30);
+            this.btnLuu2.TabIndex = 17;
+            this.btnLuu2.Text = "Lưu";
+            this.btnLuu2.UseVisualStyleBackColor = true;
+            this.btnLuu2.Click += new System.EventHandler(this.btnLuu2_Click);
             // 
-            // xoa1
+            // btnXoa2
             // 
-            this.xoa1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.xoa1.Location = new System.Drawing.Point(650, 52);
-            this.xoa1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.xoa1.Name = "xoa1";
-            this.xoa1.Size = new System.Drawing.Size(80, 30);
-            this.xoa1.TabIndex = 21;
-            this.xoa1.Text = "Trả sách";
-            this.xoa1.UseVisualStyleBackColor = true;
+            this.btnXoa2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXoa2.Location = new System.Drawing.Point(650, 52);
+            this.btnXoa2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnXoa2.Name = "btnXoa2";
+            this.btnXoa2.Size = new System.Drawing.Size(80, 30);
+            this.btnXoa2.TabIndex = 16;
+            this.btnXoa2.Text = "Trả sách";
+            this.btnXoa2.UseVisualStyleBackColor = true;
+            this.btnXoa2.Click += new System.EventHandler(this.btnXoa2_Click);
             // 
-            // sua1
+            // btnSua2
             // 
-            this.sua1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sua1.Location = new System.Drawing.Point(649, 166);
-            this.sua1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.sua1.Name = "sua1";
-            this.sua1.Size = new System.Drawing.Size(100, 35);
-            this.sua1.TabIndex = 20;
-            this.sua1.Text = "Sửa ngày trả";
-            this.sua1.UseVisualStyleBackColor = true;
+            this.btnSua2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSua2.Location = new System.Drawing.Point(649, 166);
+            this.btnSua2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSua2.Name = "btnSua2";
+            this.btnSua2.Size = new System.Drawing.Size(100, 35);
+            this.btnSua2.TabIndex = 19;
+            this.btnSua2.Text = "Sửa ngày trả";
+            this.btnSua2.UseVisualStyleBackColor = true;
+            this.btnSua2.Click += new System.EventHandler(this.btnSua2_Click);
             // 
-            // them1
+            // btnThem2
             // 
-            this.them1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.them1.Location = new System.Drawing.Point(650, 14);
-            this.them1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.them1.Name = "them1";
-            this.them1.Size = new System.Drawing.Size(80, 30);
-            this.them1.TabIndex = 19;
-            this.them1.Text = "Thêm ";
-            this.them1.UseVisualStyleBackColor = true;
+            this.btnThem2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThem2.Location = new System.Drawing.Point(650, 14);
+            this.btnThem2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThem2.Name = "btnThem2";
+            this.btnThem2.Size = new System.Drawing.Size(80, 30);
+            this.btnThem2.TabIndex = 15;
+            this.btnThem2.Text = "Thêm ";
+            this.btnThem2.UseVisualStyleBackColor = true;
+            this.btnThem2.Click += new System.EventHandler(this.btnThem2_Click);
             // 
-            // luoi1
+            // dgvCTPM
             // 
-            this.luoi1.AllowUserToAddRows = false;
-            this.luoi1.AllowUserToDeleteRows = false;
-            this.luoi1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvCTPM.AllowUserToAddRows = false;
+            this.dgvCTPM.AllowUserToDeleteRows = false;
+            this.dgvCTPM.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.luoi1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.luoi1.Location = new System.Drawing.Point(12, 247);
-            this.luoi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.luoi1.Name = "luoi1";
-            this.luoi1.Size = new System.Drawing.Size(757, 171);
-            this.luoi1.TabIndex = 18;
+            this.dgvCTPM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCTPM.Location = new System.Drawing.Point(12, 247);
+            this.dgvCTPM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvCTPM.Name = "dgvCTPM";
+            this.dgvCTPM.Size = new System.Drawing.Size(757, 171);
+            this.dgvCTPM.TabIndex = 18;
+            this.dgvCTPM.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvCTPM_CellMouseClick);
             // 
             // ghichu
             // 
@@ -389,7 +413,7 @@ namespace DoAn_QLTV
             this.ghichu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ghichu.Name = "ghichu";
             this.ghichu.Size = new System.Drawing.Size(457, 68);
-            this.ghichu.TabIndex = 17;
+            this.ghichu.TabIndex = 14;
             this.ghichu.Text = "";
             // 
             // label11
@@ -409,7 +433,7 @@ namespace DoAn_QLTV
             this.ngaytra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ngaytra.Name = "ngaytra";
             this.ngaytra.Size = new System.Drawing.Size(140, 23);
-            this.ngaytra.TabIndex = 15;
+            this.ngaytra.TabIndex = 13;
             // 
             // label6
             // 
@@ -428,7 +452,7 @@ namespace DoAn_QLTV
             this.ngaymuon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ngaymuon.Name = "ngaymuon";
             this.ngaymuon.Size = new System.Drawing.Size(140, 23);
-            this.ngaymuon.TabIndex = 13;
+            this.ngaymuon.TabIndex = 12;
             this.ngaymuon.Value = new System.DateTime(2020, 8, 11, 23, 36, 38, 0);
             // 
             // commasach
@@ -438,7 +462,7 @@ namespace DoAn_QLTV
             this.commasach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.commasach.Name = "commasach";
             this.commasach.Size = new System.Drawing.Size(140, 24);
-            this.commasach.TabIndex = 12;
+            this.commasach.TabIndex = 11;
             // 
             // commaphieumuon
             // 
@@ -447,7 +471,7 @@ namespace DoAn_QLTV
             this.commaphieumuon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.commaphieumuon.Name = "commaphieumuon";
             this.commaphieumuon.Size = new System.Drawing.Size(140, 24);
-            this.commaphieumuon.TabIndex = 11;
+            this.commaphieumuon.TabIndex = 10;
             // 
             // label8
             // 
@@ -490,16 +514,6 @@ namespace DoAn_QLTV
             this.label7.TabIndex = 3;
             this.label7.Text = "Chi tiết mượn - trả  sách";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(208, 189);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 7, 3, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 30);
-            this.button2.TabIndex = 52;
-            this.button2.Text = "Load";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // btnX
             // 
             this.btnX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -511,6 +525,7 @@ namespace DoAn_QLTV
             this.btnX.TabIndex = 54;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = true;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // FormMuonTra
             // 
@@ -525,13 +540,14 @@ namespace DoAn_QLTV
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormMuonTra";
             this.Text = "MuonTra";
+            this.Load += new System.EventHandler(this.FormMuonTra_Load);
             this.tabControl1.ResumeLayout(false);
             this.tab1.ResumeLayout(false);
             this.tab1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPM)).EndInit();
             this.tab2.ResumeLayout(false);
             this.tab2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCTPM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -542,12 +558,12 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tab1;
-        private System.Windows.Forms.Button luu;
-        private System.Windows.Forms.Button thoat;
-        private System.Windows.Forms.Button xoa;
-        private System.Windows.Forms.Button sua;
-        private System.Windows.Forms.Button them;
-        private System.Windows.Forms.DataGridView luoi;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.DataGridView dgvPM;
         private System.Windows.Forms.ComboBox comnhanvien;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comdocgia;
@@ -556,15 +572,15 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabPage tab2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.Button btnThoat2;
+        private System.Windows.Forms.Button btnLoad2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label l;
-        private System.Windows.Forms.Button luu1;
-        private System.Windows.Forms.Button xoa1;
-        private System.Windows.Forms.Button sua1;
-        private System.Windows.Forms.Button them1;
-        private System.Windows.Forms.DataGridView luoi1;
+        private System.Windows.Forms.Button btnLuu2;
+        private System.Windows.Forms.Button btnXoa2;
+        private System.Windows.Forms.Button btnSua2;
+        private System.Windows.Forms.Button btnThem2;
+        private System.Windows.Forms.DataGridView dgvCTPM;
         private System.Windows.Forms.RichTextBox ghichu;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.DateTimePicker ngaytra;
@@ -576,7 +592,7 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnX;
     }
 }

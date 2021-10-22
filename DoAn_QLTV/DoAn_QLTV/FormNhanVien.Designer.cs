@@ -92,7 +92,7 @@ namespace DoAn_QLTV
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 30);
-            this.btnLoad.TabIndex = 46;
+            this.btnLoad.TabIndex = 9;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
@@ -114,7 +114,7 @@ namespace DoAn_QLTV
             this.comgioitinh.Location = new System.Drawing.Point(127, 113);
             this.comgioitinh.Name = "comgioitinh";
             this.comgioitinh.Size = new System.Drawing.Size(78, 24);
-            this.comgioitinh.TabIndex = 43;
+            this.comgioitinh.TabIndex = 4;
             // 
             // label7
             // 
@@ -132,7 +132,7 @@ namespace DoAn_QLTV
             this.btnLuu.Location = new System.Drawing.Point(18, 242);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 30);
-            this.btnLuu.TabIndex = 41;
+            this.btnLuu.TabIndex = 10;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnbtnLuu_Click);
@@ -142,7 +142,7 @@ namespace DoAn_QLTV
             this.btnThoat.Location = new System.Drawing.Point(180, 242);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 30);
-            this.btnThoat.TabIndex = 40;
+            this.btnThoat.TabIndex = 12;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -152,7 +152,7 @@ namespace DoAn_QLTV
             this.btnXoa.Location = new System.Drawing.Point(99, 242);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 30);
-            this.btnXoa.TabIndex = 39;
+            this.btnXoa.TabIndex = 11;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -162,7 +162,7 @@ namespace DoAn_QLTV
             this.btnSua.Location = new System.Drawing.Point(99, 207);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 30);
-            this.btnSua.TabIndex = 38;
+            this.btnSua.TabIndex = 8;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnbtnSua_Click);
@@ -172,7 +172,7 @@ namespace DoAn_QLTV
             this.btnThem.Location = new System.Drawing.Point(20, 207);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 30);
-            this.btnThem.TabIndex = 37;
+            this.btnThem.TabIndex = 7;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnbtnThem_Click);
@@ -182,7 +182,7 @@ namespace DoAn_QLTV
             this.txtdienthoai.Location = new System.Drawing.Point(127, 172);
             this.txtdienthoai.Name = "txtdienthoai";
             this.txtdienthoai.Size = new System.Drawing.Size(174, 23);
-            this.txtdienthoai.TabIndex = 9;
+            this.txtdienthoai.TabIndex = 6;
             // 
             // label6
             // 
@@ -200,14 +200,14 @@ namespace DoAn_QLTV
             this.ngaysinh.Location = new System.Drawing.Point(127, 84);
             this.ngaysinh.Name = "ngaysinh";
             this.ngaysinh.Size = new System.Drawing.Size(174, 23);
-            this.ngaysinh.TabIndex = 7;
+            this.ngaysinh.TabIndex = 3;
             // 
             // txtdiachi
             // 
             this.txtdiachi.Location = new System.Drawing.Point(127, 143);
             this.txtdiachi.Name = "txtdiachi";
             this.txtdiachi.Size = new System.Drawing.Size(174, 23);
-            this.txtdiachi.TabIndex = 6;
+            this.txtdiachi.TabIndex = 5;
             // 
             // label5
             // 
@@ -234,7 +234,7 @@ namespace DoAn_QLTV
             this.txttennhanvien.Location = new System.Drawing.Point(127, 51);
             this.txttennhanvien.Name = "txttennhanvien";
             this.txttennhanvien.Size = new System.Drawing.Size(174, 23);
-            this.txttennhanvien.TabIndex = 3;
+            this.txttennhanvien.TabIndex = 2;
             // 
             // label3
             // 

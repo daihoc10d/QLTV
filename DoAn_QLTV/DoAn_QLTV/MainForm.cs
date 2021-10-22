@@ -72,26 +72,29 @@ namespace DoAn_QLTV
 
         private void btnTaoTK_Click(object sender, EventArgs e)
         {
-
+            openChildForm(new FormThemTK());
             hideSubMenu();
         }
 
         private void btnDoiMK_Click(object sender, EventArgs e)
         {
-
+            openChildForm(new FormDoiMK());
             hideSubMenu();
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
-
             hideSubMenu();
+            this.Hide();
+            FormDangNhap dn = new FormDangNhap();
+            dn.Show();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
 
             hideSubMenu();
+            Application.Exit();
         }
         #endregion
 
@@ -191,6 +194,7 @@ namespace DoAn_QLTV
         private void btnTroGiup_Click(object sender, EventArgs e)
         {
             //
+            openChildForm(new FormHelp());
             hideSubMenu();
         }
 

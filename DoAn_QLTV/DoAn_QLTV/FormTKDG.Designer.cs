@@ -32,16 +32,16 @@ namespace DoAn_QLTV
             this.label2 = new System.Windows.Forms.Label();
             this.l = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnTim = new System.Windows.Forms.Button();
             this.ramasach = new System.Windows.Forms.RadioButton();
             this.txttimkiem = new System.Windows.Forms.TextBox();
             this.ratensach = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.luoi = new System.Windows.Forms.DataGridView();
+            this.dgvTKDG = new System.Windows.Forms.DataGridView();
             this.btnX = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTKDG)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -65,8 +65,8 @@ namespace DoAn_QLTV
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnThoat);
+            this.groupBox1.Controls.Add(this.btnTim);
             this.groupBox1.Controls.Add(this.ramasach);
             this.groupBox1.Controls.Add(this.txttimkiem);
             this.groupBox1.Controls.Add(this.ratensach);
@@ -79,27 +79,29 @@ namespace DoAn_QLTV
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin tìm kiếm";
             // 
-            // button1
+            // btnThoat
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(544, 74);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 32);
-            this.button1.TabIndex = 39;
-            this.button1.Text = "Thoát";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThoat.Location = new System.Drawing.Point(544, 74);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(87, 32);
+            this.btnThoat.TabIndex = 39;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // button2
+            // btnTim
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(544, 32);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 32);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Tìm";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTim.Location = new System.Drawing.Point(544, 32);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnTim.Name = "btnTim";
+            this.btnTim.Size = new System.Drawing.Size(87, 32);
+            this.btnTim.TabIndex = 38;
+            this.btnTim.Text = "Tìm";
+            this.btnTim.UseVisualStyleBackColor = true;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // ramasach
             // 
@@ -109,7 +111,7 @@ namespace DoAn_QLTV
             this.ramasach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ramasach.Name = "ramasach";
             this.ramasach.Size = new System.Drawing.Size(122, 28);
-            this.ramasach.TabIndex = 36;
+            this.ramasach.TabIndex = 33;
             this.ramasach.TabStop = true;
             this.ramasach.Text = "Mã độc giả";
             this.ramasach.UseVisualStyleBackColor = true;
@@ -145,19 +147,19 @@ namespace DoAn_QLTV
             this.label1.TabIndex = 41;
             this.label1.Text = "TÌM KIẾM ĐỘC GIẢ";
             // 
-            // luoi
+            // dgvTKDG
             // 
-            this.luoi.AllowUserToAddRows = false;
-            this.luoi.AllowUserToDeleteRows = false;
-            this.luoi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvTKDG.AllowUserToAddRows = false;
+            this.dgvTKDG.AllowUserToDeleteRows = false;
+            this.dgvTKDG.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.luoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.luoi.Location = new System.Drawing.Point(22, 195);
-            this.luoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.luoi.Name = "luoi";
-            this.luoi.Size = new System.Drawing.Size(765, 258);
-            this.luoi.TabIndex = 45;
+            this.dgvTKDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTKDG.Location = new System.Drawing.Point(22, 195);
+            this.dgvTKDG.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvTKDG.Name = "dgvTKDG";
+            this.dgvTKDG.Size = new System.Drawing.Size(765, 258);
+            this.dgvTKDG.TabIndex = 45;
             // 
             // btnX
             // 
@@ -170,6 +172,7 @@ namespace DoAn_QLTV
             this.btnX.TabIndex = 56;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = true;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // FormTKDG
             // 
@@ -178,7 +181,7 @@ namespace DoAn_QLTV
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 466);
             this.Controls.Add(this.btnX);
-            this.Controls.Add(this.luoi);
+            this.Controls.Add(this.dgvTKDG);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.l);
             this.Controls.Add(this.groupBox1);
@@ -187,9 +190,10 @@ namespace DoAn_QLTV
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTKDG";
             this.Text = "FormTKDG";
+            this.Load += new System.EventHandler(this.FormTKDG_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luoi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTKDG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,13 +204,13 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label l;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.RadioButton ramasach;
         private System.Windows.Forms.TextBox txttimkiem;
         private System.Windows.Forms.RadioButton ratensach;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView luoi;
+        private System.Windows.Forms.DataGridView dgvTKDG;
         private System.Windows.Forms.Button btnX;
     }
 }

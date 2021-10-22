@@ -65,7 +65,7 @@ namespace DoAn_QLTV
             this.txtphone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtphone.Name = "txtphone";
             this.txtphone.Size = new System.Drawing.Size(128, 23);
-            this.txtphone.TabIndex = 44;
+            this.txtphone.TabIndex = 4;
             // 
             // label5
             // 
@@ -83,7 +83,7 @@ namespace DoAn_QLTV
             this.txtdiachi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdiachi.Name = "txtdiachi";
             this.txtdiachi.Size = new System.Drawing.Size(168, 23);
-            this.txtdiachi.TabIndex = 42;
+            this.txtdiachi.TabIndex = 3;
             // 
             // label4
             // 
@@ -101,7 +101,7 @@ namespace DoAn_QLTV
             this.txttennhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttennhaxb.Name = "txttennhaxb";
             this.txttennhaxb.Size = new System.Drawing.Size(168, 23);
-            this.txttennhaxb.TabIndex = 40;
+            this.txttennhaxb.TabIndex = 2;
             // 
             // label3
             // 
@@ -119,7 +119,7 @@ namespace DoAn_QLTV
             this.txtmanhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmanhaxb.Name = "txtmanhaxb";
             this.txtmanhaxb.Size = new System.Drawing.Size(108, 23);
-            this.txtmanhaxb.TabIndex = 38;
+            this.txtmanhaxb.TabIndex = 1;
             // 
             // label2
             // 
@@ -138,7 +138,7 @@ namespace DoAn_QLTV
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 35);
-            this.btnLuu.TabIndex = 49;
+            this.btnLuu.TabIndex = 8;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
@@ -149,7 +149,7 @@ namespace DoAn_QLTV
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 35);
-            this.btnThoat.TabIndex = 48;
+            this.btnThoat.TabIndex = 10;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -160,7 +160,7 @@ namespace DoAn_QLTV
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 35);
-            this.btnXoa.TabIndex = 47;
+            this.btnXoa.TabIndex = 9;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -171,7 +171,7 @@ namespace DoAn_QLTV
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 35);
-            this.btnSua.TabIndex = 46;
+            this.btnSua.TabIndex = 6;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
@@ -182,7 +182,7 @@ namespace DoAn_QLTV
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 35);
-            this.btnThem.TabIndex = 45;
+            this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -193,7 +193,7 @@ namespace DoAn_QLTV
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 35);
-            this.btnLoad.TabIndex = 50;
+            this.btnLoad.TabIndex = 7;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);

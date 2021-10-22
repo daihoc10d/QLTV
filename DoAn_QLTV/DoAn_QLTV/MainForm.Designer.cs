@@ -58,18 +58,35 @@ namespace DoAn_QLTV
             this.btnTaoTK = new System.Windows.Forms.Button();
             this.btnHeThong = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelBot = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panelTop = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelSubMenuTKe.SuspendLayout();
             this.panelSubMenuTK.SuspendLayout();
             this.panelSubMenuMT.SuspendLayout();
             this.panelSubMenuDM.SuspendLayout();
             this.panelSubMenuHeThong.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelBot.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -132,14 +149,17 @@ namespace DoAn_QLTV
             this.btnTKeDG.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTKeDG.FlatAppearance.BorderSize = 0;
             this.btnTKeDG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTKeDG.ForeColor = System.Drawing.Color.Black;
+            this.btnTKeDG.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTKeDG.Image = ((System.Drawing.Image)(resources.GetObject("btnTKeDG.Image")));
+            this.btnTKeDG.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTKeDG.Location = new System.Drawing.Point(0, 35);
             this.btnTKeDG.Name = "btnTKeDG";
             this.btnTKeDG.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTKeDG.Size = new System.Drawing.Size(202, 35);
             this.btnTKeDG.TabIndex = 1;
-            this.btnTKeDG.Text = "Thống kê độc giả";
+            this.btnTKeDG.Text = " Thống kê độc giả";
             this.btnTKeDG.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTKeDG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTKeDG.UseVisualStyleBackColor = false;
             this.btnTKeDG.Click += new System.EventHandler(this.btnTKeDG_Click);
             // 
@@ -149,14 +169,17 @@ namespace DoAn_QLTV
             this.btnTKeTL.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTKeTL.FlatAppearance.BorderSize = 0;
             this.btnTKeTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTKeTL.ForeColor = System.Drawing.Color.Black;
+            this.btnTKeTL.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTKeTL.Image = ((System.Drawing.Image)(resources.GetObject("btnTKeTL.Image")));
+            this.btnTKeTL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTKeTL.Location = new System.Drawing.Point(0, 0);
             this.btnTKeTL.Name = "btnTKeTL";
             this.btnTKeTL.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTKeTL.Size = new System.Drawing.Size(202, 35);
             this.btnTKeTL.TabIndex = 0;
-            this.btnTKeTL.Text = "Thống kê tài liệu";
+            this.btnTKeTL.Text = " Thống kê tài liệu";
             this.btnTKeTL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTKeTL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTKeTL.UseVisualStyleBackColor = false;
             this.btnTKeTL.Click += new System.EventHandler(this.btnTKeTL_Click);
             // 
@@ -198,14 +221,17 @@ namespace DoAn_QLTV
             this.btnTKDG.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTKDG.FlatAppearance.BorderSize = 0;
             this.btnTKDG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTKDG.ForeColor = System.Drawing.Color.Black;
+            this.btnTKDG.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTKDG.Image = ((System.Drawing.Image)(resources.GetObject("btnTKDG.Image")));
+            this.btnTKDG.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTKDG.Location = new System.Drawing.Point(0, 35);
             this.btnTKDG.Name = "btnTKDG";
             this.btnTKDG.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTKDG.Size = new System.Drawing.Size(202, 35);
             this.btnTKDG.TabIndex = 1;
-            this.btnTKDG.Text = "Tìm kiếm độc giả";
+            this.btnTKDG.Text = " Tìm kiếm độc giả";
             this.btnTKDG.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTKDG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTKDG.UseVisualStyleBackColor = false;
             this.btnTKDG.Click += new System.EventHandler(this.btnTKDG_Click);
             // 
@@ -215,14 +241,17 @@ namespace DoAn_QLTV
             this.btnTKTL.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTKTL.FlatAppearance.BorderSize = 0;
             this.btnTKTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTKTL.ForeColor = System.Drawing.Color.Black;
+            this.btnTKTL.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTKTL.Image = ((System.Drawing.Image)(resources.GetObject("btnTKTL.Image")));
+            this.btnTKTL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTKTL.Location = new System.Drawing.Point(0, 0);
             this.btnTKTL.Name = "btnTKTL";
             this.btnTKTL.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTKTL.Size = new System.Drawing.Size(202, 35);
             this.btnTKTL.TabIndex = 0;
-            this.btnTKTL.Text = "Tìm kiếm tài liệu";
+            this.btnTKTL.Text = " Tìm kiếm tài liệu";
             this.btnTKTL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTKTL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTKTL.UseVisualStyleBackColor = false;
             this.btnTKTL.Click += new System.EventHandler(this.btnTKTL_Click);
             // 
@@ -263,14 +292,17 @@ namespace DoAn_QLTV
             this.btnMT.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMT.FlatAppearance.BorderSize = 0;
             this.btnMT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMT.ForeColor = System.Drawing.Color.Black;
+            this.btnMT.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnMT.Image = ((System.Drawing.Image)(resources.GetObject("btnMT.Image")));
+            this.btnMT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMT.Location = new System.Drawing.Point(0, 0);
             this.btnMT.Name = "btnMT";
             this.btnMT.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnMT.Size = new System.Drawing.Size(202, 35);
             this.btnMT.TabIndex = 0;
-            this.btnMT.Text = "Quản lý mượn - trả";
+            this.btnMT.Text = " Quản lý mượn - trả";
             this.btnMT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMT.UseVisualStyleBackColor = false;
             this.btnMT.Click += new System.EventHandler(this.btnMT_Click);
             // 
@@ -316,14 +348,17 @@ namespace DoAn_QLTV
             this.btnNXB.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNXB.FlatAppearance.BorderSize = 0;
             this.btnNXB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNXB.ForeColor = System.Drawing.Color.Black;
+            this.btnNXB.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnNXB.Image = ((System.Drawing.Image)(resources.GetObject("btnNXB.Image")));
+            this.btnNXB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNXB.Location = new System.Drawing.Point(0, 175);
             this.btnNXB.Name = "btnNXB";
             this.btnNXB.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnNXB.Size = new System.Drawing.Size(202, 35);
             this.btnNXB.TabIndex = 6;
-            this.btnNXB.Text = "Nhà xuất bản";
+            this.btnNXB.Text = " Nhà xuất bản";
             this.btnNXB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNXB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNXB.UseVisualStyleBackColor = false;
             this.btnNXB.Click += new System.EventHandler(this.btnNXB_Click);
             // 
@@ -333,14 +368,17 @@ namespace DoAn_QLTV
             this.btnTacGia.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTacGia.FlatAppearance.BorderSize = 0;
             this.btnTacGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTacGia.ForeColor = System.Drawing.Color.Black;
+            this.btnTacGia.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTacGia.Image = ((System.Drawing.Image)(resources.GetObject("btnTacGia.Image")));
+            this.btnTacGia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTacGia.Location = new System.Drawing.Point(0, 140);
             this.btnTacGia.Name = "btnTacGia";
             this.btnTacGia.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTacGia.Size = new System.Drawing.Size(202, 35);
             this.btnTacGia.TabIndex = 5;
-            this.btnTacGia.Text = "Tác giả";
+            this.btnTacGia.Text = " Tác giả";
             this.btnTacGia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTacGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTacGia.UseVisualStyleBackColor = false;
             this.btnTacGia.Click += new System.EventHandler(this.btnTacGia_Click);
             // 
@@ -350,14 +388,17 @@ namespace DoAn_QLTV
             this.btnTheLoai.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTheLoai.FlatAppearance.BorderSize = 0;
             this.btnTheLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTheLoai.ForeColor = System.Drawing.Color.Black;
+            this.btnTheLoai.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTheLoai.Image = ((System.Drawing.Image)(resources.GetObject("btnTheLoai.Image")));
+            this.btnTheLoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTheLoai.Location = new System.Drawing.Point(0, 105);
             this.btnTheLoai.Name = "btnTheLoai";
             this.btnTheLoai.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTheLoai.Size = new System.Drawing.Size(202, 35);
             this.btnTheLoai.TabIndex = 4;
-            this.btnTheLoai.Text = "Thể loại";
+            this.btnTheLoai.Text = " Thể loại";
             this.btnTheLoai.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTheLoai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTheLoai.UseVisualStyleBackColor = false;
             this.btnTheLoai.Click += new System.EventHandler(this.btnTheLoai_Click);
             // 
@@ -367,14 +408,17 @@ namespace DoAn_QLTV
             this.btnTaiLieu.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTaiLieu.FlatAppearance.BorderSize = 0;
             this.btnTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTaiLieu.ForeColor = System.Drawing.Color.Black;
+            this.btnTaiLieu.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnTaiLieu.Image = ((System.Drawing.Image)(resources.GetObject("btnTaiLieu.Image")));
+            this.btnTaiLieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTaiLieu.Location = new System.Drawing.Point(0, 70);
             this.btnTaiLieu.Name = "btnTaiLieu";
             this.btnTaiLieu.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnTaiLieu.Size = new System.Drawing.Size(202, 35);
             this.btnTaiLieu.TabIndex = 3;
-            this.btnTaiLieu.Text = "Tài liệu";
+            this.btnTaiLieu.Text = " Tài liệu";
             this.btnTaiLieu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTaiLieu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTaiLieu.UseVisualStyleBackColor = false;
             this.btnTaiLieu.Click += new System.EventHandler(this.btnTaiLieu_Click);
             // 
@@ -384,14 +428,17 @@ namespace DoAn_QLTV
             this.btnNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNhanVien.FlatAppearance.BorderSize = 0;
             this.btnNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNhanVien.ForeColor = System.Drawing.Color.Black;
+            this.btnNhanVien.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnNhanVien.Image")));
+            this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhanVien.Location = new System.Drawing.Point(0, 35);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnNhanVien.Size = new System.Drawing.Size(202, 35);
             this.btnNhanVien.TabIndex = 2;
-            this.btnNhanVien.Text = "Nhân viên";
+            this.btnNhanVien.Text = " Nhân viên";
             this.btnNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNhanVien.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNhanVien.UseVisualStyleBackColor = false;
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
@@ -401,14 +448,17 @@ namespace DoAn_QLTV
             this.btnDocGia.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDocGia.FlatAppearance.BorderSize = 0;
             this.btnDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDocGia.ForeColor = System.Drawing.Color.Black;
+            this.btnDocGia.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnDocGia.Image = ((System.Drawing.Image)(resources.GetObject("btnDocGia.Image")));
+            this.btnDocGia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDocGia.Location = new System.Drawing.Point(0, 0);
             this.btnDocGia.Name = "btnDocGia";
             this.btnDocGia.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnDocGia.Size = new System.Drawing.Size(202, 35);
             this.btnDocGia.TabIndex = 1;
-            this.btnDocGia.Text = "Độc giả";
+            this.btnDocGia.Text = " Độc giả";
             this.btnDocGia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDocGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDocGia.UseVisualStyleBackColor = false;
             this.btnDocGia.Click += new System.EventHandler(this.btnDocGia_Click);
             // 
@@ -451,14 +501,17 @@ namespace DoAn_QLTV
             this.btnThoat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnThoat.FlatAppearance.BorderSize = 0;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.ForeColor = System.Drawing.Color.Black;
+            this.btnThoat.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThoat.Location = new System.Drawing.Point(0, 105);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnThoat.Size = new System.Drawing.Size(202, 35);
             this.btnThoat.TabIndex = 3;
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Text = " Thoát";
             this.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
@@ -468,14 +521,17 @@ namespace DoAn_QLTV
             this.btnDangXuat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDangXuat.FlatAppearance.BorderSize = 0;
             this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangXuat.ForeColor = System.Drawing.Color.Black;
+            this.btnDangXuat.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
+            this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDangXuat.Location = new System.Drawing.Point(0, 70);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnDangXuat.Size = new System.Drawing.Size(202, 35);
             this.btnDangXuat.TabIndex = 2;
-            this.btnDangXuat.Text = "Đăng xuất";
+            this.btnDangXuat.Text = " Đăng xuất";
             this.btnDangXuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDangXuat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDangXuat.UseVisualStyleBackColor = false;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
@@ -485,14 +541,17 @@ namespace DoAn_QLTV
             this.btnDoiMK.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDoiMK.FlatAppearance.BorderSize = 0;
             this.btnDoiMK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDoiMK.ForeColor = System.Drawing.Color.Black;
+            this.btnDoiMK.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btnDoiMK.Image = ((System.Drawing.Image)(resources.GetObject("btnDoiMK.Image")));
+            this.btnDoiMK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDoiMK.Location = new System.Drawing.Point(0, 35);
             this.btnDoiMK.Name = "btnDoiMK";
             this.btnDoiMK.Padding = new System.Windows.Forms.Padding(31, 0, 0, 0);
             this.btnDoiMK.Size = new System.Drawing.Size(202, 35);
             this.btnDoiMK.TabIndex = 1;
-            this.btnDoiMK.Text = "Đổi mật khẩu";
+            this.btnDoiMK.Text = " Đổi mật khẩu";
             this.btnDoiMK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDoiMK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDoiMK.UseVisualStyleBackColor = false;
             this.btnDoiMK.Click += new System.EventHandler(this.btnDoiMK_Click);
             // 
@@ -502,7 +561,7 @@ namespace DoAn_QLTV
             this.btnTaoTK.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTaoTK.FlatAppearance.BorderSize = 0;
             this.btnTaoTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTaoTK.ForeColor = System.Drawing.Color.Black;
+            this.btnTaoTK.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btnTaoTK.Image = ((System.Drawing.Image)(resources.GetObject("btnTaoTK.Image")));
             this.btnTaoTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTaoTK.Location = new System.Drawing.Point(0, 0);
@@ -539,29 +598,111 @@ namespace DoAn_QLTV
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelLogo.Controls.Add(this.pictureBox5);
+            this.panelLogo.Controls.Add(this.label2);
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Controls.Add(this.pictureBox2);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(202, 90);
             this.panelLogo.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(122, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 23);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Library";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(85, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Hutech";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(67, 67);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // panelBot
             // 
             this.panelBot.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelBot.Controls.Add(this.pictureBox4);
+            this.panelBot.Controls.Add(this.label4);
             this.panelBot.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBot.Location = new System.Drawing.Point(219, 565);
             this.panelBot.Name = "panelBot";
             this.panelBot.Size = new System.Drawing.Size(815, 40);
             this.panelBot.TabIndex = 1;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(331, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(6, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(319, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Thư viện trường đại học Hutech.";
+            // 
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelTop.Controls.Add(this.pictureBox6);
+            this.panelTop.Controls.Add(this.pictureBox3);
+            this.panelTop.Controls.Add(this.label3);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(219, 0);
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(815, 60);
             this.panelTop.TabIndex = 2;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(495, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(533, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(258, 23);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Tiên học lễ - Hậu học văn.";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panelChildForm
             // 
@@ -569,6 +710,7 @@ namespace DoAn_QLTV
             this.panelChildForm.BackColor = System.Drawing.Color.White;
             this.panelChildForm.Controls.Add(this.pictureBox1);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.ForeColor = System.Drawing.SystemColors.Highlight;
             this.panelChildForm.Location = new System.Drawing.Point(219, 60);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(815, 505);
@@ -585,6 +727,24 @@ namespace DoAn_QLTV
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(157, 22);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(26, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(81, 64);
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -595,18 +755,30 @@ namespace DoAn_QLTV
             this.Controls.Add(this.panelBot);
             this.Controls.Add(this.panelSideMenu);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Quản lý thư viện trường đại học Hutech";
             this.panelSideMenu.ResumeLayout(false);
             this.panelSubMenuTKe.ResumeLayout(false);
             this.panelSubMenuTK.ResumeLayout(false);
             this.panelSubMenuMT.ResumeLayout(false);
             this.panelSubMenuDM.ResumeLayout(false);
             this.panelSubMenuHeThong.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelBot.ResumeLayout(false);
+            this.panelBot.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panelTop.ResumeLayout(false);
+            this.panelTop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panelChildForm.ResumeLayout(false);
             this.panelChildForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -646,6 +818,15 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 

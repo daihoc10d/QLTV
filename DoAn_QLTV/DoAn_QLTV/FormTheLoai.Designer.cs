@@ -51,7 +51,7 @@ namespace DoAn_QLTV
             this.txttentheloai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttentheloai.Name = "txttentheloai";
             this.txttentheloai.Size = new System.Drawing.Size(151, 23);
-            this.txttentheloai.TabIndex = 10;
+            this.txttentheloai.TabIndex = 2;
             // 
             // label3
             // 
@@ -69,7 +69,7 @@ namespace DoAn_QLTV
             this.txtmatheloai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmatheloai.Name = "txtmatheloai";
             this.txtmatheloai.Size = new System.Drawing.Size(151, 23);
-            this.txtmatheloai.TabIndex = 8;
+            this.txtmatheloai.TabIndex = 1;
             // 
             // label2
             // 

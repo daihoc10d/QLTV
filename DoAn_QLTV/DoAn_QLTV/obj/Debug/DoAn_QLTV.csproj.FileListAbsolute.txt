@@ -19,3 +19,7 @@ C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources

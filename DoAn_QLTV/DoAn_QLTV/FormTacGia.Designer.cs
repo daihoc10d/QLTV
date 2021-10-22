@@ -64,7 +64,7 @@ namespace DoAn_QLTV
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(87, 43);
-            this.btnLuu.TabIndex = 33;
+            this.btnLuu.TabIndex = 6;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
@@ -75,7 +75,7 @@ namespace DoAn_QLTV
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(87, 43);
-            this.btnThoat.TabIndex = 32;
+            this.btnThoat.TabIndex = 8;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
@@ -86,7 +86,7 @@ namespace DoAn_QLTV
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(87, 43);
-            this.btnXoa.TabIndex = 31;
+            this.btnXoa.TabIndex = 7;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -97,7 +97,7 @@ namespace DoAn_QLTV
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(87, 43);
-            this.btnSua.TabIndex = 30;
+            this.btnSua.TabIndex = 4;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
@@ -108,7 +108,7 @@ namespace DoAn_QLTV
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(87, 43);
-            this.btnThem.TabIndex = 29;
+            this.btnThem.TabIndex = 3;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -119,7 +119,7 @@ namespace DoAn_QLTV
             this.txttentacgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttentacgia.Name = "txttentacgia";
             this.txttentacgia.Size = new System.Drawing.Size(151, 23);
-            this.txttentacgia.TabIndex = 28;
+            this.txttentacgia.TabIndex = 2;
             // 
             // label3
             // 
@@ -137,7 +137,7 @@ namespace DoAn_QLTV
             this.txtmatacgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmatacgia.Name = "txtmatacgia";
             this.txtmatacgia.Size = new System.Drawing.Size(151, 23);
-            this.txtmatacgia.TabIndex = 26;
+            this.txtmatacgia.TabIndex = 1;
             // 
             // label2
             // 
@@ -170,7 +170,7 @@ namespace DoAn_QLTV
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(87, 43);
-            this.btnLoad.TabIndex = 38;
+            this.btnLoad.TabIndex = 5;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);

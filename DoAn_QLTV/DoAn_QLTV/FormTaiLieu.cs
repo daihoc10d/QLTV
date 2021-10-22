@@ -39,7 +39,11 @@ namespace DoAn_QLTV
             dgvTaiLieu.Columns[3].HeaderText = "Mã tác giả";
             dgvTaiLieu.Columns[4].HeaderText = "Mã thể loại";
             dgvTaiLieu.Columns[5].HeaderText = "Mã nhà xuất bản";
-            //dgvTaiLieu.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+
+            dgvTaiLieu.AutoResizeColumns();
+            dgvTaiLieu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dgvTaiLieu.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+
             btnXoa.Enabled = true;
             btnSua.Text = "Sửa";
             btnThem.Enabled = true;

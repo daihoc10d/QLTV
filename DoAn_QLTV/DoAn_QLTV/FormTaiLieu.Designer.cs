@@ -159,7 +159,7 @@ namespace DoAn_QLTV
             this.commatacgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.commatacgia.Name = "commatacgia";
             this.commatacgia.Size = new System.Drawing.Size(143, 28);
-            this.commatacgia.TabIndex = 11;
+            this.commatacgia.TabIndex = 6;
             // 
             // label6
             // 
@@ -178,7 +178,7 @@ namespace DoAn_QLTV
             this.comtheloai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comtheloai.Name = "comtheloai";
             this.comtheloai.Size = new System.Drawing.Size(143, 28);
-            this.comtheloai.TabIndex = 9;
+            this.comtheloai.TabIndex = 5;
             // 
             // comnhaxb
             // 
@@ -187,7 +187,7 @@ namespace DoAn_QLTV
             this.comnhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comnhaxb.Name = "comnhaxb";
             this.comnhaxb.Size = new System.Drawing.Size(143, 28);
-            this.comnhaxb.TabIndex = 7;
+            this.comnhaxb.TabIndex = 4;
             // 
             // label4
             // 
@@ -215,7 +215,7 @@ namespace DoAn_QLTV
             this.txtnamxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtnamxb.Name = "txtnamxb";
             this.txtnamxb.Size = new System.Drawing.Size(143, 26);
-            this.txtnamxb.TabIndex = 5;
+            this.txtnamxb.TabIndex = 3;
             // 
             // label3
             // 
@@ -233,7 +233,7 @@ namespace DoAn_QLTV
             this.txttensach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttensach.Name = "txttensach";
             this.txttensach.Size = new System.Drawing.Size(143, 26);
-            this.txttensach.TabIndex = 3;
+            this.txttensach.TabIndex = 2;
             // 
             // label2
             // 
