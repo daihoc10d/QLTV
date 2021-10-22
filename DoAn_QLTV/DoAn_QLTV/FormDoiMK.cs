@@ -53,7 +53,7 @@ namespace DoAn_QLTV
                 }
                 else
                 {
-                    MessageBox.Show("Không tồn tại tài khoản này !!", "Thông báo");
+                    MessageBox.Show("Tài khoản không tồn tại hoặc mật khẩu sai !!", "Thông báo");
                     txtTenTK.Focus();
                 }
             }

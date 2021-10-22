@@ -28,7 +28,7 @@ namespace DoAn_QLTV
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            //DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + txtTaiKhoan.Text + "'");
+            DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + txtTaiKhoan.Text + "' and MKAccount=N'" + txtMatKhau.Text + "'");
             //DataTable dt1 = t.docdulieu("select * from Account where MaAccount=N'" + txtMatKhau.Text + "'");
             if (txtTaiKhoan.Text == "")
             {
@@ -40,9 +40,8 @@ namespace DoAn_QLTV
                 MessageBox.Show("Bạn chưa nhập mật khẩu");
                 txtMatKhau.Focus();
             }
-            else if (t.thucthidulieu("select * from Account where TenAccount=N'" + txtTaiKhoan.Text + "'")==true && t.thucthidulieu("select * from Account where MKAccount=N'" + txtMatKhau.Text + "'")==true)
+            else if (dt.Rows.Count == 1)
             {
-
                 MessageBox.Show("Đăng nhập thành công");
                 this.Hide();
                 Form f = new MainForm();
