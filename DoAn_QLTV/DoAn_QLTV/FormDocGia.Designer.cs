@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDocGia));
             this.l = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dgvDocGia = new System.Windows.Forms.DataGridView();
@@ -337,9 +338,10 @@ namespace DoAn_QLTV
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDocGia";
-            this.Text = "DocGia";
+            this.Text = "Độc giả";
             this.Load += new System.EventHandler(this.FormDocGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDocGia)).EndInit();
             this.groupBox1.ResumeLayout(false);

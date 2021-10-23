@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTKeTL));
             this.dgvTKeTL = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnXuatExcel = new System.Windows.Forms.Button();
@@ -153,9 +154,10 @@ namespace DoAn_QLTV
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTKeTL";
-            this.Text = "FormTKeTL";
+            this.Text = "Thống kê tài liệu";
             this.Load += new System.EventHandler(this.FormTKeTL_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTKeTL)).EndInit();
             this.groupBox1.ResumeLayout(false);

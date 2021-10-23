@@ -215,5 +215,10 @@ namespace DoAn_QLTV
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

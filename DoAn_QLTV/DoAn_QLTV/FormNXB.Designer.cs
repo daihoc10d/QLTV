@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNXB));
             this.label1 = new System.Windows.Forms.Label();
             this.txtphone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -250,9 +251,10 @@ namespace DoAn_QLTV
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormNXB";
-            this.Text = "NXB";
+            this.Text = "Nhà xuất bản";
             this.Load += new System.EventHandler(this.FormNXB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNXB)).EndInit();
             this.ResumeLayout(false);

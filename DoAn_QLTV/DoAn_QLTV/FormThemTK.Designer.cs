@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThemTK));
             this.label1 = new System.Windows.Forms.Label();
             this.txtTenTK = new System.Windows.Forms.TextBox();
             this.txtMK = new System.Windows.Forms.TextBox();
@@ -57,6 +58,7 @@ namespace DoAn_QLTV
             this.txtTenTK.Name = "txtTenTK";
             this.txtTenTK.Size = new System.Drawing.Size(100, 23);
             this.txtTenTK.TabIndex = 1;
+            this.txtTenTK.TextChanged += new System.EventHandler(this.txtTenTK_TextChanged);
             // 
             // txtMK
             // 
@@ -159,9 +161,10 @@ namespace DoAn_QLTV
             this.Controls.Add(this.txtTenTK);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormThemTK";
-            this.Text = "FormThemTK";
+            this.Text = "Tạo tài khoản";
             this.Load += new System.EventHandler(this.FormThemTK_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

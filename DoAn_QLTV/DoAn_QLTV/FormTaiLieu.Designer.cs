@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTaiLieu));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
@@ -311,9 +312,10 @@ namespace DoAn_QLTV
             this.Controls.Add(this.dgvTaiLieu);
             this.Controls.Add(this.groupBox2);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTaiLieu";
-            this.Text = "TaiLieu";
+            this.Text = "Tài liệu";
             this.Load += new System.EventHandler(this.FormTaiLieu_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
