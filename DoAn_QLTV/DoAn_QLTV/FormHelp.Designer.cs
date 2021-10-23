@@ -39,9 +39,11 @@ namespace DoAn_QLTV
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnX = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,21 +131,11 @@ namespace DoAn_QLTV
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(593, 439);
+            this.label9.Location = new System.Drawing.Point(564, 405);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 18);
+            this.label9.Size = new System.Drawing.Size(174, 18);
             this.label9.TabIndex = 8;
-            this.label9.Text = "Liên lạc: tkdudat@gmail.com";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(593, 412);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(126, 18);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "SDT: 0326958896";
+            this.label9.Text = "phungdai.hoc@gmail.com";
             // 
             // pictureBox1
             // 
@@ -167,15 +159,47 @@ namespace DoAn_QLTV
             this.btnX.UseVisualStyleBackColor = true;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(509, 387);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(194, 18);
+            this.label11.TabIndex = 55;
+            this.label11.Text = "Liên lạc: tkdudat@gmail.com";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(564, 423);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(158, 18);
+            this.label12.TabIndex = 56;
+            this.label12.Text = "htththiet99@gmail.com";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(564, 441);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(224, 18);
+            this.label10.TabIndex = 57;
+            this.label10.Text = "quynguyen06032017@gmail.com";
+            // 
             // FormHelp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 466);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -207,8 +231,10 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label10;
     }
 }

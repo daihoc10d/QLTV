@@ -54,15 +54,16 @@ namespace DoAn_QLTV
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(72, 23);
+            this.label1.Location = new System.Drawing.Point(81, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(231, 23);
             this.label1.TabIndex = 33;
             this.label1.Text = "CẬP NHẬT NHÀ XUẤT BẢN";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtphone
             // 
-            this.txtphone.Location = new System.Drawing.Point(173, 223);
+            this.txtphone.Location = new System.Drawing.Point(173, 265);
             this.txtphone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtphone.Name = "txtphone";
             this.txtphone.Size = new System.Drawing.Size(128, 23);
@@ -72,7 +73,7 @@ namespace DoAn_QLTV
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(30, 223);
+            this.label5.Location = new System.Drawing.Point(30, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 23);
             this.label5.TabIndex = 43;
@@ -80,7 +81,7 @@ namespace DoAn_QLTV
             // 
             // txtdiachi
             // 
-            this.txtdiachi.Location = new System.Drawing.Point(173, 178);
+            this.txtdiachi.Location = new System.Drawing.Point(173, 204);
             this.txtdiachi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdiachi.Name = "txtdiachi";
             this.txtdiachi.Size = new System.Drawing.Size(168, 23);
@@ -90,7 +91,7 @@ namespace DoAn_QLTV
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(24, 175);
+            this.label4.Location = new System.Drawing.Point(24, 193);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 23);
             this.label4.TabIndex = 41;
@@ -98,7 +99,7 @@ namespace DoAn_QLTV
             // 
             // txttennhaxb
             // 
-            this.txttennhaxb.Location = new System.Drawing.Point(173, 129);
+            this.txttennhaxb.Location = new System.Drawing.Point(173, 139);
             this.txttennhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttennhaxb.Name = "txttennhaxb";
             this.txttennhaxb.Size = new System.Drawing.Size(168, 23);
@@ -108,7 +109,7 @@ namespace DoAn_QLTV
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(24, 129);
+            this.label3.Location = new System.Drawing.Point(24, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 23);
             this.label3.TabIndex = 39;
@@ -116,7 +117,7 @@ namespace DoAn_QLTV
             // 
             // txtmanhaxb
             // 
-            this.txtmanhaxb.Location = new System.Drawing.Point(173, 89);
+            this.txtmanhaxb.Location = new System.Drawing.Point(173, 83);
             this.txtmanhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmanhaxb.Name = "txtmanhaxb";
             this.txtmanhaxb.Size = new System.Drawing.Size(108, 23);
@@ -126,7 +127,7 @@ namespace DoAn_QLTV
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(24, 85);
+            this.label2.Location = new System.Drawing.Point(24, 71);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 23);
             this.label2.TabIndex = 37;
@@ -135,7 +136,7 @@ namespace DoAn_QLTV
             // btnLuu
             // 
             this.btnLuu.Enabled = false;
-            this.btnLuu.Location = new System.Drawing.Point(35, 314);
+            this.btnLuu.Location = new System.Drawing.Point(36, 378);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 35);
@@ -146,7 +147,7 @@ namespace DoAn_QLTV
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(236, 314);
+            this.btnThoat.Location = new System.Drawing.Point(237, 378);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 35);
@@ -157,7 +158,7 @@ namespace DoAn_QLTV
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(135, 314);
+            this.btnXoa.Location = new System.Drawing.Point(136, 378);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 35);
@@ -168,7 +169,7 @@ namespace DoAn_QLTV
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(135, 263);
+            this.btnSua.Location = new System.Drawing.Point(136, 327);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 35);
@@ -179,7 +180,7 @@ namespace DoAn_QLTV
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(35, 263);
+            this.btnThem.Location = new System.Drawing.Point(36, 327);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 35);
@@ -190,7 +191,7 @@ namespace DoAn_QLTV
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(236, 263);
+            this.btnLoad.Location = new System.Drawing.Point(237, 327);
             this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(75, 35);

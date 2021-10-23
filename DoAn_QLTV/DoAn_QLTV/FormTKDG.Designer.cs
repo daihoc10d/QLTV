@@ -83,7 +83,7 @@ namespace DoAn_QLTV
             // btnThoat
             // 
             this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat.Location = new System.Drawing.Point(544, 74);
+            this.btnThoat.Location = new System.Drawing.Point(558, 71);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(87, 32);
@@ -95,7 +95,7 @@ namespace DoAn_QLTV
             // btnTim
             // 
             this.btnTim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTim.Location = new System.Drawing.Point(544, 32);
+            this.btnTim.Location = new System.Drawing.Point(558, 29);
             this.btnTim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(87, 32);
@@ -119,7 +119,7 @@ namespace DoAn_QLTV
             // 
             // txttimkiem
             // 
-            this.txttimkiem.Location = new System.Drawing.Point(197, 44);
+            this.txttimkiem.Location = new System.Drawing.Point(194, 56);
             this.txttimkiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(341, 23);

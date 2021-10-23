@@ -156,7 +156,7 @@ namespace DoAn_QLTV
             string ngayhh = ngaysinh.Value.ToString("MM/dd/yyyy");
             if (dgvDocGia.Enabled == true)
             {
-                if (txtmadocgia.Text == "" || txttendocgia.Text == "" || txtlop.Text == "")
+                if (txtmadocgia.Text == "" || txttendocgia.Text == "" )
                 {
                     MessageBox.Show("Vui lòng không bỏ trống thông tin !!");
 
@@ -170,7 +170,7 @@ namespace DoAn_QLTV
                 }
                 else MessageBox.Show("Không thể cập nhật dữ liệu");
             }
-            else if (txtmadocgia.Text == "" || txttendocgia.Text == "" || txtlop.Text == "")
+            else if (txtmadocgia.Text == "" || txttendocgia.Text == "" )
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin !!");
             }
@@ -217,6 +217,11 @@ namespace DoAn_QLTV
         private void FormDocGia_Load(object sender, EventArgs e)
         {
             loaddata();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 
