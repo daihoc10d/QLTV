@@ -29,7 +29,6 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDocGia));
             this.l = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dgvDocGia = new System.Windows.Forms.DataGridView();
@@ -128,7 +127,6 @@ namespace DoAn_QLTV
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnLoad
             // 
@@ -147,7 +145,7 @@ namespace DoAn_QLTV
             this.comgioitinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.comgioitinh.Location = new System.Drawing.Point(110, 125);
+            this.comgioitinh.Location = new System.Drawing.Point(108, 125);
             this.comgioitinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comgioitinh.Name = "comgioitinh";
             this.comgioitinh.Size = new System.Drawing.Size(90, 24);
@@ -157,7 +155,7 @@ namespace DoAn_QLTV
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(8, 129);
+            this.label7.Location = new System.Drawing.Point(6, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 20);
             this.label7.TabIndex = 42;
@@ -222,7 +220,7 @@ namespace DoAn_QLTV
             // ngaysinh
             // 
             this.ngaysinh.CustomFormat = "";
-            this.ngaysinh.Location = new System.Drawing.Point(110, 89);
+            this.ngaysinh.Location = new System.Drawing.Point(108, 89);
             this.ngaysinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ngaysinh.Name = "ngaysinh";
             this.ngaysinh.Size = new System.Drawing.Size(202, 23);
@@ -230,7 +228,7 @@ namespace DoAn_QLTV
             // 
             // txtlop
             // 
-            this.txtlop.Location = new System.Drawing.Point(110, 157);
+            this.txtlop.Location = new System.Drawing.Point(108, 157);
             this.txtlop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtlop.Name = "txtlop";
             this.txtlop.Size = new System.Drawing.Size(202, 23);
@@ -240,7 +238,7 @@ namespace DoAn_QLTV
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(8, 160);
+            this.label5.Location = new System.Drawing.Point(6, 160);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 20);
             this.label5.TabIndex = 5;
@@ -250,7 +248,7 @@ namespace DoAn_QLTV
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(8, 96);
+            this.label4.Location = new System.Drawing.Point(6, 96);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 20);
             this.label4.TabIndex = 4;
@@ -258,7 +256,7 @@ namespace DoAn_QLTV
             // 
             // txttendocgia
             // 
-            this.txttendocgia.Location = new System.Drawing.Point(110, 58);
+            this.txttendocgia.Location = new System.Drawing.Point(108, 58);
             this.txttendocgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttendocgia.Name = "txttendocgia";
             this.txttendocgia.Size = new System.Drawing.Size(202, 23);
@@ -268,7 +266,7 @@ namespace DoAn_QLTV
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(8, 61);
+            this.label3.Location = new System.Drawing.Point(6, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 2;
@@ -276,7 +274,7 @@ namespace DoAn_QLTV
             // 
             // txtmadocgia
             // 
-            this.txtmadocgia.Location = new System.Drawing.Point(110, 27);
+            this.txtmadocgia.Location = new System.Drawing.Point(108, 27);
             this.txtmadocgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmadocgia.Name = "txtmadocgia";
             this.txtmadocgia.Size = new System.Drawing.Size(202, 23);
@@ -286,7 +284,7 @@ namespace DoAn_QLTV
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(8, 30);
+            this.label2.Location = new System.Drawing.Point(6, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 20);
             this.label2.TabIndex = 0;
@@ -339,10 +337,9 @@ namespace DoAn_QLTV
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDocGia";
-            this.Text = "Độc giả";
+            this.Text = "DocGia";
             this.Load += new System.EventHandler(this.FormDocGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDocGia)).EndInit();
             this.groupBox1.ResumeLayout(false);

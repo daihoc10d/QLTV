@@ -9,7 +9,7 @@ namespace DoAn_QLTV
 {
     class Themsuaxoa
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=QLTHUVIEN;Integrated Security=True");//biến con sqlconection để kêt nối đến CSDL
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-54ME9OK;Initial Catalog=QLTHUVIEN;Integrated Security=True");//biến con sqlconection để kêt nối đến CSDL
         public void moketnoi() //Phương thức kết nối
         {
             if (con.State == ConnectionState.Closed) //kiểm tra nếu trường hợp chưa kết nối thì mở kêt nối

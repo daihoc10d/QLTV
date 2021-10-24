@@ -64,10 +64,5 @@ namespace DoAn_QLTV
         {
             this.Close();
         }
-
-        private void txtTenTK_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

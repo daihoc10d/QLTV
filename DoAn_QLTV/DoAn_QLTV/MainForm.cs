@@ -12,10 +12,25 @@ namespace DoAn_QLTV
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        //public MainForm()
+        //{
+        //    InitializeComponent();
+        //    customizeDesign();
+        //}
+
+        Themsuaxoa t = new Themsuaxoa();
+
+        public MainForm(string name)
         {
             InitializeComponent();
             customizeDesign();
+            labName.Text = name;
+            DataTable dt = t.docdulieu("select NhanVien.TenNV from Account, NhanVien where TenAccount=N'" + labName.Text + "'and Account.MaNV=NhanVien.MaNV");
+            dgvNV.DataSource = dt;
+            labNV.Text = dgvNV.Rows[0].Cells[0].Value.ToString();
+        }
+        private void MainForm_Load(object sender, EventArgs e)
+        {
         }
 
         private void customizeDesign()
@@ -78,7 +93,7 @@ namespace DoAn_QLTV
 
         private void btnDoiMK_Click(object sender, EventArgs e)
         {
-            openChildForm(new FormDoiMK());
+            openChildForm(new FormDoiMK(labName.Text));
             hideSubMenu();
         }
 
@@ -214,11 +229,6 @@ namespace DoAn_QLTV
             panelChildForm.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

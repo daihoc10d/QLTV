@@ -29,7 +29,6 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTacGia));
             this.label4 = new System.Windows.Forms.Label();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
@@ -208,10 +207,9 @@ namespace DoAn_QLTV
             this.Controls.Add(this.dgvTacGia);
             this.Controls.Add(this.label4);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTacGia";
-            this.Text = "Tác giả";
+            this.Text = "TacGia";
             this.Load += new System.EventHandler(this.FormTacGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTacGia)).EndInit();
             this.ResumeLayout(false);

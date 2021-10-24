@@ -145,6 +145,7 @@ namespace DoAn_QLTV
             this.txtMatKhau.Size = new System.Drawing.Size(151, 23);
             this.txtMatKhau.TabIndex = 2;
             this.txtMatKhau.UseSystemPasswordChar = true;
+            this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
             // 
             // txtTaiKhoan
             // 
@@ -192,10 +193,9 @@ namespace DoAn_QLTV
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDangNhap";
-            this.Text = "Đăng nhập";
+            this.Text = "FormDangNhap";
             this.Load += new System.EventHandler(this.FormDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

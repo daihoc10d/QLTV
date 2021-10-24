@@ -29,7 +29,6 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhanVien));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnLoad = new System.Windows.Forms.Button();
             this.l = new System.Windows.Forms.Label();
@@ -317,9 +316,9 @@ namespace DoAn_QLTV
             this.label9.ForeColor = System.Drawing.Color.Red;
             this.label9.Location = new System.Drawing.Point(148, 371);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(42, 16);
+            this.label9.Size = new System.Drawing.Size(113, 16);
             this.label9.TabIndex = 48;
-            this.label9.Text = "label9";
+            this.label9.Text = "Tổng số nhân viên";
             // 
             // FormNhanVien
             // 
@@ -334,10 +333,9 @@ namespace DoAn_QLTV
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormNhanVien";
-            this.Text = "Nhân viên";
+            this.Text = "NhanVien";
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

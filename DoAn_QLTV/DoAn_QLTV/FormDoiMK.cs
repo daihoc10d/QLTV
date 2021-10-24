@@ -14,9 +14,14 @@ namespace DoAn_QLTV
 {
     public partial class FormDoiMK : Form
     {
-        public FormDoiMK()
+        //public FormDoiMK()
+        //{
+        //    InitializeComponent();
+        //}
+        public FormDoiMK(string name)
         {
             InitializeComponent();
+            labName.Text = name;
         }
 
         Themsuaxoa t = new Themsuaxoa();
@@ -25,8 +30,8 @@ namespace DoAn_QLTV
         {
             try
             {
-                DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + txtTenTK.Text + "' and MKAccount=N'" + txtMK.Text + "'");
-                if (txtTenTK.Text == "" || txtMK.Text == "" || txtMKagain.Text == "")
+                DataTable dt = t.docdulieu("select * from Account where TenAccount=N'" + labName.Text + "' and MKAccount=N'" + txtMK.Text + "'");
+                if ( txtMK.Text == "" || txtMKagain.Text == "")
                 {
                     MessageBox.Show("Vui lòng không bỏ trống thông tin !!", "Thông báo");
                     txtTenTK.Focus();
@@ -40,7 +45,7 @@ namespace DoAn_QLTV
                     else
                     if (txtMK.Text != txtMKagain.Text)
                     {
-                        if (t.thucthidulieu("update Account set MKAccount=N'" + txtMKagain.Text + "' where TenAccount=N'" + txtTenTK.Text + "'") == true)
+                        if (t.thucthidulieu("update Account set MKAccount=N'" + txtMKagain.Text + "' where TenAccount=N'" + labName.Text + "'") == true)
                         {
                             MessageBox.Show("Đổi mật khẩu thành công !!", "Thông báo");
                             setNull();
@@ -64,7 +69,7 @@ namespace DoAn_QLTV
         }
         private void setNull()
         {
-            txtTenTK.Text = "";
+            //txtTenTK.Text = "";
             txtMK.Text = "";
             txtMKagain.Text = "";
             txtMKAgain2.Text = "";

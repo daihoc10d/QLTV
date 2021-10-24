@@ -42,10 +42,14 @@ namespace DoAn_QLTV
             }
             else if (dt.Rows.Count == 1)
             {
+                Form frm = new MainForm(txtTaiKhoan.Text);
+                
+
                 MessageBox.Show("Đăng nhập thành công");
                 this.Hide();
-                Form f = new MainForm();
-                f.Show();
+                frm.Show();
+                //Form f = new MainForm();
+                //f.Show();
             }
             else { MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai"); }
         }
@@ -53,6 +57,11 @@ namespace DoAn_QLTV
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
