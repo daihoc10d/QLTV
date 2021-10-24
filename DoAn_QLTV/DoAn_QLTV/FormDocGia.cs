@@ -218,6 +218,11 @@ namespace DoAn_QLTV
         {
             loaddata();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

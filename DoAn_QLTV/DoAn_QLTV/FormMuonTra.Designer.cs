@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMuonTra));
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab1 = new System.Windows.Forms.TabPage();
@@ -304,7 +305,7 @@ namespace DoAn_QLTV
             // btnThoat2
             // 
             this.btnThoat2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat2.Location = new System.Drawing.Point(650, 209);
+            this.btnThoat2.Location = new System.Drawing.Point(653, 207);
             this.btnThoat2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat2.Name = "btnThoat2";
             this.btnThoat2.Size = new System.Drawing.Size(80, 30);
@@ -316,7 +317,7 @@ namespace DoAn_QLTV
             // btnLoad2
             // 
             this.btnLoad2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLoad2.Location = new System.Drawing.Point(650, 128);
+            this.btnLoad2.Location = new System.Drawing.Point(653, 126);
             this.btnLoad2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLoad2.Name = "btnLoad2";
             this.btnLoad2.Size = new System.Drawing.Size(80, 30);
@@ -347,7 +348,7 @@ namespace DoAn_QLTV
             // btnLuu2
             // 
             this.btnLuu2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLuu2.Location = new System.Drawing.Point(650, 90);
+            this.btnLuu2.Location = new System.Drawing.Point(653, 88);
             this.btnLuu2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLuu2.Name = "btnLuu2";
             this.btnLuu2.Size = new System.Drawing.Size(80, 30);
@@ -359,7 +360,7 @@ namespace DoAn_QLTV
             // btnXoa2
             // 
             this.btnXoa2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXoa2.Location = new System.Drawing.Point(650, 52);
+            this.btnXoa2.Location = new System.Drawing.Point(653, 50);
             this.btnXoa2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoa2.Name = "btnXoa2";
             this.btnXoa2.Size = new System.Drawing.Size(80, 30);
@@ -371,7 +372,7 @@ namespace DoAn_QLTV
             // btnSua2
             // 
             this.btnSua2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSua2.Location = new System.Drawing.Point(649, 166);
+            this.btnSua2.Location = new System.Drawing.Point(652, 164);
             this.btnSua2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSua2.Name = "btnSua2";
             this.btnSua2.Size = new System.Drawing.Size(100, 35);
@@ -383,7 +384,7 @@ namespace DoAn_QLTV
             // btnThem2
             // 
             this.btnThem2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThem2.Location = new System.Drawing.Point(650, 14);
+            this.btnThem2.Location = new System.Drawing.Point(653, 12);
             this.btnThem2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThem2.Name = "btnThem2";
             this.btnThem2.Size = new System.Drawing.Size(80, 30);
@@ -477,7 +478,7 @@ namespace DoAn_QLTV
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label8.Location = new System.Drawing.Point(8, 86);
+            this.label8.Location = new System.Drawing.Point(46, 86);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 24);
             this.label8.TabIndex = 10;
@@ -537,6 +538,7 @@ namespace DoAn_QLTV
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormMuonTra";
             this.Text = "Mượn trả";

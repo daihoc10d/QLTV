@@ -124,7 +124,7 @@ namespace DoAn_QLTV
             // 
             this.labThongbao.AutoSize = true;
             this.labThongbao.ForeColor = System.Drawing.Color.Red;
-            this.labThongbao.Location = new System.Drawing.Point(114, 146);
+            this.labThongbao.Location = new System.Drawing.Point(152, 146);
             this.labThongbao.MinimumSize = new System.Drawing.Size(256, 16);
             this.labThongbao.Name = "labThongbao";
             this.labThongbao.Size = new System.Drawing.Size(256, 16);
@@ -133,7 +133,7 @@ namespace DoAn_QLTV
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(254, 167);
+            this.btnThoat.Location = new System.Drawing.Point(292, 167);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(85, 30);
             this.btnThoat.TabIndex = 4;
@@ -143,7 +143,7 @@ namespace DoAn_QLTV
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(127, 167);
+            this.btnDangNhap.Location = new System.Drawing.Point(165, 167);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(85, 30);
             this.btnDangNhap.TabIndex = 3;
@@ -153,7 +153,7 @@ namespace DoAn_QLTV
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(164, 122);
+            this.txtMatKhau.Location = new System.Drawing.Point(202, 122);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(151, 23);
             this.txtMatKhau.TabIndex = 2;
@@ -162,7 +162,7 @@ namespace DoAn_QLTV
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(164, 79);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(202, 79);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(151, 23);
             this.txtTaiKhoan.TabIndex = 1;
@@ -171,7 +171,7 @@ namespace DoAn_QLTV
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(31, 122);
+            this.label3.Location = new System.Drawing.Point(69, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 24);
             this.label3.TabIndex = 16;
@@ -181,7 +181,7 @@ namespace DoAn_QLTV
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 76);
+            this.label2.Location = new System.Drawing.Point(69, 76);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 24);
             this.label2.TabIndex = 15;
@@ -191,7 +191,7 @@ namespace DoAn_QLTV
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(123, 34);
+            this.label4.Location = new System.Drawing.Point(161, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(216, 24);
             this.label4.TabIndex = 14;
@@ -206,6 +206,7 @@ namespace DoAn_QLTV
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDangNhap";
             this.Text = "Đăng nhập";

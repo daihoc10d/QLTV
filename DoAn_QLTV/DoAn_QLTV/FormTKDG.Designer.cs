@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTKDG));
             this.label2 = new System.Windows.Forms.Label();
             this.l = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -82,7 +83,7 @@ namespace DoAn_QLTV
             // btnThoat
             // 
             this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat.Location = new System.Drawing.Point(544, 74);
+            this.btnThoat.Location = new System.Drawing.Point(544, 73);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(87, 32);
@@ -94,7 +95,7 @@ namespace DoAn_QLTV
             // btnTim
             // 
             this.btnTim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTim.Location = new System.Drawing.Point(544, 32);
+            this.btnTim.Location = new System.Drawing.Point(544, 31);
             this.btnTim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(87, 32);
@@ -107,7 +108,7 @@ namespace DoAn_QLTV
             // 
             this.ramasach.AutoSize = true;
             this.ramasach.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ramasach.Location = new System.Drawing.Point(48, 36);
+            this.ramasach.Location = new System.Drawing.Point(48, 33);
             this.ramasach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ramasach.Name = "ramasach";
             this.ramasach.Size = new System.Drawing.Size(122, 28);
@@ -118,7 +119,7 @@ namespace DoAn_QLTV
             // 
             // txttimkiem
             // 
-            this.txttimkiem.Location = new System.Drawing.Point(197, 44);
+            this.txttimkiem.Location = new System.Drawing.Point(188, 54);
             this.txttimkiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(341, 23);
@@ -128,7 +129,7 @@ namespace DoAn_QLTV
             // 
             this.ratensach.AutoSize = true;
             this.ratensach.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ratensach.Location = new System.Drawing.Point(48, 78);
+            this.ratensach.Location = new System.Drawing.Point(48, 73);
             this.ratensach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ratensach.Name = "ratensach";
             this.ratensach.Size = new System.Drawing.Size(130, 28);
@@ -187,6 +188,7 @@ namespace DoAn_QLTV
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTKDG";
             this.Text = "Tìm kiếm độc giả";

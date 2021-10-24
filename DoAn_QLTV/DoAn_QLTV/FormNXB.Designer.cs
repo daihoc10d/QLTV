@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNXB));
             this.label1 = new System.Windows.Forms.Label();
             this.txtphone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -53,7 +54,7 @@ namespace DoAn_QLTV
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(72, 23);
+            this.label1.Location = new System.Drawing.Point(65, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(231, 23);
             this.label1.TabIndex = 33;
@@ -61,17 +62,17 @@ namespace DoAn_QLTV
             // 
             // txtphone
             // 
-            this.txtphone.Location = new System.Drawing.Point(173, 223);
+            this.txtphone.Location = new System.Drawing.Point(173, 218);
             this.txtphone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(128, 23);
+            this.txtphone.Size = new System.Drawing.Size(168, 23);
             this.txtphone.TabIndex = 4;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(30, 223);
+            this.label5.Location = new System.Drawing.Point(43, 218);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 23);
             this.label5.TabIndex = 43;
@@ -79,7 +80,7 @@ namespace DoAn_QLTV
             // 
             // txtdiachi
             // 
-            this.txtdiachi.Location = new System.Drawing.Point(173, 178);
+            this.txtdiachi.Location = new System.Drawing.Point(173, 181);
             this.txtdiachi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdiachi.Name = "txtdiachi";
             this.txtdiachi.Size = new System.Drawing.Size(168, 23);
@@ -89,7 +90,7 @@ namespace DoAn_QLTV
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(24, 175);
+            this.label4.Location = new System.Drawing.Point(43, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 23);
             this.label4.TabIndex = 41;
@@ -97,7 +98,7 @@ namespace DoAn_QLTV
             // 
             // txttennhaxb
             // 
-            this.txttennhaxb.Location = new System.Drawing.Point(173, 129);
+            this.txttennhaxb.Location = new System.Drawing.Point(173, 145);
             this.txttennhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttennhaxb.Name = "txttennhaxb";
             this.txttennhaxb.Size = new System.Drawing.Size(168, 23);
@@ -107,7 +108,7 @@ namespace DoAn_QLTV
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(24, 129);
+            this.label3.Location = new System.Drawing.Point(43, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 23);
             this.label3.TabIndex = 39;
@@ -115,17 +116,17 @@ namespace DoAn_QLTV
             // 
             // txtmanhaxb
             // 
-            this.txtmanhaxb.Location = new System.Drawing.Point(173, 89);
+            this.txtmanhaxb.Location = new System.Drawing.Point(173, 111);
             this.txtmanhaxb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmanhaxb.Name = "txtmanhaxb";
-            this.txtmanhaxb.Size = new System.Drawing.Size(108, 23);
+            this.txtmanhaxb.Size = new System.Drawing.Size(168, 23);
             this.txtmanhaxb.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(24, 85);
+            this.label2.Location = new System.Drawing.Point(43, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 23);
             this.label2.TabIndex = 37;
@@ -250,6 +251,7 @@ namespace DoAn_QLTV
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormNXB";
             this.Text = "Nhà xuất bản";

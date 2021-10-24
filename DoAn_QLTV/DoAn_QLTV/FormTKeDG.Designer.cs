@@ -29,6 +29,7 @@ namespace DoAn_QLTV
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTKeDG));
             this.dgvTKeDG = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnXuatExcel = new System.Windows.Forms.Button();
@@ -73,7 +74,7 @@ namespace DoAn_QLTV
             // btnXuatExcel
             // 
             this.btnXuatExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXuatExcel.Location = new System.Drawing.Point(540, 17);
+            this.btnXuatExcel.Location = new System.Drawing.Point(493, 24);
             this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXuatExcel.Name = "btnXuatExcel";
             this.btnXuatExcel.Size = new System.Drawing.Size(87, 32);
@@ -88,7 +89,7 @@ namespace DoAn_QLTV
             this.tuychon.Items.AddRange(new object[] {
             "Tất cả độc giả",
             "Độc giả trễ hạn"});
-            this.tuychon.Location = new System.Drawing.Point(147, 23);
+            this.tuychon.Location = new System.Drawing.Point(100, 30);
             this.tuychon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tuychon.Name = "tuychon";
             this.tuychon.Size = new System.Drawing.Size(237, 24);
@@ -97,7 +98,7 @@ namespace DoAn_QLTV
             // btnThoat
             // 
             this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat.Location = new System.Drawing.Point(635, 18);
+            this.btnThoat.Location = new System.Drawing.Point(588, 25);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(87, 32);
@@ -109,7 +110,7 @@ namespace DoAn_QLTV
             // btnThongKe
             // 
             this.btnThongKe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThongKe.Location = new System.Drawing.Point(437, 18);
+            this.btnThongKe.Location = new System.Drawing.Point(390, 25);
             this.btnThongKe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(87, 32);
@@ -152,6 +153,7 @@ namespace DoAn_QLTV
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTKeDG";
             this.Text = "Thống kê độc giả";
