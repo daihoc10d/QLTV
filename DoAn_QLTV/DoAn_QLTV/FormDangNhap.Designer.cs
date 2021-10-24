@@ -36,6 +36,7 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.labThongbao = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
@@ -43,7 +44,6 @@ namespace DoAn_QLTV
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.labThongbao = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -120,6 +120,17 @@ namespace DoAn_QLTV
             this.panel3.Size = new System.Drawing.Size(477, 228);
             this.panel3.TabIndex = 14;
             // 
+            // labThongbao
+            // 
+            this.labThongbao.AutoSize = true;
+            this.labThongbao.ForeColor = System.Drawing.Color.Red;
+            this.labThongbao.Location = new System.Drawing.Point(114, 146);
+            this.labThongbao.MinimumSize = new System.Drawing.Size(256, 16);
+            this.labThongbao.Name = "labThongbao";
+            this.labThongbao.Size = new System.Drawing.Size(256, 16);
+            this.labThongbao.TabIndex = 17;
+            this.labThongbao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnThoat
             // 
             this.btnThoat.Location = new System.Drawing.Point(254, 167);
@@ -186,17 +197,6 @@ namespace DoAn_QLTV
             this.label4.TabIndex = 14;
             this.label4.Text = "Đăng nhập hệ thống";
             // 
-            // labThongbao
-            // 
-            this.labThongbao.AutoSize = true;
-            this.labThongbao.ForeColor = System.Drawing.Color.Red;
-            this.labThongbao.Location = new System.Drawing.Point(114, 146);
-            this.labThongbao.MinimumSize = new System.Drawing.Size(256, 16);
-            this.labThongbao.Name = "labThongbao";
-            this.labThongbao.Size = new System.Drawing.Size(256, 16);
-            this.labThongbao.TabIndex = 17;
-            this.labThongbao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // FormDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -208,7 +208,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormDangNhap";
-            this.Text = "FormDangNhap";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.FormDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

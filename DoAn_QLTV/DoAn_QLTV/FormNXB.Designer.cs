@@ -252,7 +252,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormNXB";
-            this.Text = "NXB";
+            this.Text = "Nhà xuất bản";
             this.Load += new System.EventHandler(this.FormNXB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNXB)).EndInit();
             this.ResumeLayout(false);

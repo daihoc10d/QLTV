@@ -208,7 +208,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTheLoai";
-            this.Text = "TheLoai";
+            this.Text = "Thể loại";
             this.Load += new System.EventHandler(this.FormTheLoai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTheLoai)).EndInit();
             this.ResumeLayout(false);

@@ -209,7 +209,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTacGia";
-            this.Text = "TacGia";
+            this.Text = "Tác giả";
             this.Load += new System.EventHandler(this.FormTacGia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTacGia)).EndInit();
             this.ResumeLayout(false);

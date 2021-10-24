@@ -335,7 +335,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormNhanVien";
-            this.Text = "NhanVien";
+            this.Text = "Nhân Viên";
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

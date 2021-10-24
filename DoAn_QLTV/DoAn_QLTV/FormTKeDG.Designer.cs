@@ -154,7 +154,7 @@ namespace DoAn_QLTV
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormTKeDG";
-            this.Text = "FormTKeDG";
+            this.Text = "Thống kê độc giả";
             this.Load += new System.EventHandler(this.FormTKeDG_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTKeDG)).EndInit();
             this.groupBox1.ResumeLayout(false);
