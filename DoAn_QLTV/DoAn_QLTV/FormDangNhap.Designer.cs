@@ -43,6 +43,7 @@ namespace DoAn_QLTV
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.labThongbao = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,6 +106,7 @@ namespace DoAn_QLTV
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.labThongbao);
             this.panel3.Controls.Add(this.btnThoat);
             this.panel3.Controls.Add(this.btnDangNhap);
             this.panel3.Controls.Add(this.txtMatKhau);
@@ -130,7 +132,7 @@ namespace DoAn_QLTV
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(136, 167);
+            this.btnDangNhap.Location = new System.Drawing.Point(127, 167);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(85, 30);
             this.btnDangNhap.TabIndex = 3;
@@ -184,6 +186,17 @@ namespace DoAn_QLTV
             this.label4.TabIndex = 14;
             this.label4.Text = "Đăng nhập hệ thống";
             // 
+            // labThongbao
+            // 
+            this.labThongbao.AutoSize = true;
+            this.labThongbao.ForeColor = System.Drawing.Color.Red;
+            this.labThongbao.Location = new System.Drawing.Point(114, 146);
+            this.labThongbao.MinimumSize = new System.Drawing.Size(256, 16);
+            this.labThongbao.Name = "labThongbao";
+            this.labThongbao.Size = new System.Drawing.Size(256, 16);
+            this.labThongbao.TabIndex = 17;
+            this.labThongbao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -222,5 +235,6 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label labThongbao;
     }
 }

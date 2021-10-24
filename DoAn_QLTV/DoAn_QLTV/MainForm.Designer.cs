@@ -63,19 +63,21 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelBot = new System.Windows.Forms.Panel();
+            this.dgvNV = new System.Windows.Forms.DataGridView();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panelTop = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.labNV = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labName = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.labNV = new System.Windows.Forms.Label();
-            this.dgvNV = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelSubMenuTKe.SuspendLayout();
             this.panelSubMenuTK.SuspendLayout();
@@ -86,13 +88,15 @@ namespace DoAn_QLTV
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelBot.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -657,6 +661,7 @@ namespace DoAn_QLTV
             // panelBot
             // 
             this.panelBot.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelBot.Controls.Add(this.pictureBox8);
             this.panelBot.Controls.Add(this.dgvNV);
             this.panelBot.Controls.Add(this.pictureBox4);
             this.panelBot.Controls.Add(this.label4);
@@ -665,6 +670,15 @@ namespace DoAn_QLTV
             this.panelBot.Name = "panelBot";
             this.panelBot.Size = new System.Drawing.Size(815, 40);
             this.panelBot.TabIndex = 1;
+            // 
+            // dgvNV
+            // 
+            this.dgvNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNV.Location = new System.Drawing.Point(807, 32);
+            this.dgvNV.Name = "dgvNV";
+            this.dgvNV.Size = new System.Drawing.Size(8, 8);
+            this.dgvNV.TabIndex = 3;
+            this.dgvNV.Visible = false;
             // 
             // pictureBox4
             // 
@@ -689,6 +703,7 @@ namespace DoAn_QLTV
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelTop.Controls.Add(this.pictureBox7);
             this.panelTop.Controls.Add(this.label6);
             this.panelTop.Controls.Add(this.labNV);
             this.panelTop.Controls.Add(this.labName);
@@ -701,6 +716,36 @@ namespace DoAn_QLTV
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(815, 60);
             this.panelTop.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(208, 32);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 16);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Tài khoản: ";
+            // 
+            // labNV
+            // 
+            this.labNV.AutoSize = true;
+            this.labNV.ForeColor = System.Drawing.Color.White;
+            this.labNV.Location = new System.Drawing.Point(284, 13);
+            this.labNV.Name = "labNV";
+            this.labNV.Size = new System.Drawing.Size(89, 16);
+            this.labNV.TabIndex = 2;
+            this.labNV.Text = "Tên nhân viên";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(113, 13);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(165, 16);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Nhân viên đang đăng nhập:";
             // 
             // pictureBox6
             // 
@@ -761,50 +806,33 @@ namespace DoAn_QLTV
             // 
             this.labName.AutoSize = true;
             this.labName.ForeColor = System.Drawing.Color.White;
-            this.labName.Location = new System.Drawing.Point(287, 32);
+            this.labName.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.labName.Location = new System.Drawing.Point(284, 32);
             this.labName.Name = "labName";
             this.labName.Size = new System.Drawing.Size(86, 16);
             this.labName.TabIndex = 1;
             this.labName.Text = "Tên tài khoản";
+            this.labName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label5
+            // pictureBox7
             // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(113, 13);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(165, 16);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Nhân viên đang đăng nhập:";
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(376, 32);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
-            // labNV
+            // pictureBox8
             // 
-            this.labNV.AutoSize = true;
-            this.labNV.ForeColor = System.Drawing.Color.White;
-            this.labNV.Location = new System.Drawing.Point(284, 13);
-            this.labNV.Name = "labNV";
-            this.labNV.Size = new System.Drawing.Size(89, 16);
-            this.labNV.TabIndex = 2;
-            this.labNV.Text = "Tên nhân viên";
-            // 
-            // dgvNV
-            // 
-            this.dgvNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNV.Location = new System.Drawing.Point(807, 32);
-            this.dgvNV.Name = "dgvNV";
-            this.dgvNV.Size = new System.Drawing.Size(8, 8);
-            this.dgvNV.TabIndex = 3;
-            this.dgvNV.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(208, 32);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 16);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Tài khoản: ";
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(780, 5);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox8.TabIndex = 4;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // MainForm
             // 
@@ -833,6 +861,7 @@ namespace DoAn_QLTV
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelBot.ResumeLayout(false);
             this.panelBot.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
@@ -841,7 +870,8 @@ namespace DoAn_QLTV
             this.panelChildForm.ResumeLayout(false);
             this.panelChildForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvNV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -890,11 +920,13 @@ namespace DoAn_QLTV
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label labName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labNV;
         private System.Windows.Forms.DataGridView dgvNV;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label labName;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
 

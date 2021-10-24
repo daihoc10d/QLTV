@@ -1,7 +1,6 @@
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
-C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
@@ -23,28 +22,4 @@ C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDan
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
 C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe.config
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.exe
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\DoAn_QLTV.pdb
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDangNhap.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDocGia.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormDoiMK.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormHelp.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormMuonTra.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormThemTK.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKDG.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeDG.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKeTL.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTKTL.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.MainForm.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNhanVien.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormNXB.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.Properties.Resources.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTacGia.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTaiLieu.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.FormTheLoai.resources
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
-D:\DOAN\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
+C:\Users\Loli Power\source\repos\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.AssemblyReference.cache

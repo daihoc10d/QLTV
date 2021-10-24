@@ -32,26 +32,25 @@ namespace DoAn_QLTV
             //DataTable dt1 = t.docdulieu("select * from Account where MaAccount=N'" + txtMatKhau.Text + "'");
             if (txtTaiKhoan.Text == "")
             {
-                MessageBox.Show("Bạn chưa nhập tài khoản");
+                labThongbao.Text = "Bạn chưa nhập tài khoản";
                 txtTaiKhoan.Focus();
             }
             else if (txtMatKhau.Text == "")
             {
-                MessageBox.Show("Bạn chưa nhập mật khẩu");
+                labThongbao.Text = "Bạn chưa nhập mật khẩu";
                 txtMatKhau.Focus();
             }
             else if (dt.Rows.Count == 1)
             {
                 Form frm = new MainForm(txtTaiKhoan.Text);
                 
-
                 MessageBox.Show("Đăng nhập thành công");
                 this.Hide();
                 frm.Show();
                 //Form f = new MainForm();
                 //f.Show();
             }
-            else { MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai"); }
+            else { labThongbao.Text="Tên đăng nhập hoặc mật khẩu sai"; }
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
