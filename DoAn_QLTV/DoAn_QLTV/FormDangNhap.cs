@@ -23,7 +23,6 @@ namespace DoAn_QLTV
 
         private void FormDangNhap_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -44,7 +43,7 @@ namespace DoAn_QLTV
             {
                 Form frm = new MainForm(txtTaiKhoan.Text);
                 
-                MessageBox.Show("Đăng nhập thành công");
+                //MessageBox.Show("Đăng nhập thành công");
                 this.Hide();
                 frm.Show();
                 //Form f = new MainForm();

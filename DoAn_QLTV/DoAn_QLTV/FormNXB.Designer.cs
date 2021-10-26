@@ -47,6 +47,7 @@ namespace DoAn_QLTV
             this.btnLoad = new System.Windows.Forms.Button();
             this.dgvNXB = new System.Windows.Forms.DataGridView();
             this.btnX = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNXB)).BeginInit();
             this.SuspendLayout();
             // 
@@ -227,12 +228,24 @@ namespace DoAn_QLTV
             this.btnX.UseVisualStyleBackColor = true;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(135, 372);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 35);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormNXB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(799, 466);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.dgvNXB);
             this.Controls.Add(this.btnLoad);
@@ -281,5 +294,6 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.DataGridView dgvNXB;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Button button1;
     }
 }

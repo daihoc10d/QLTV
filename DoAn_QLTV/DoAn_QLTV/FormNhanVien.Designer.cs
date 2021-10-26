@@ -31,6 +31,7 @@ namespace DoAn_QLTV
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhanVien));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.l = new System.Windows.Forms.Label();
             this.comgioitinh = new System.Windows.Forms.ComboBox();
@@ -61,6 +62,7 @@ namespace DoAn_QLTV
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnLoad);
             this.groupBox1.Controls.Add(this.l);
             this.groupBox1.Controls.Add(this.comgioitinh);
@@ -86,6 +88,17 @@ namespace DoAn_QLTV
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(97, 275);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(77, 35);
+            this.button1.TabIndex = 46;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLoad
             // 
@@ -374,5 +387,6 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button1;
     }
 }

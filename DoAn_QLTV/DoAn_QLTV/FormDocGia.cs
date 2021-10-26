@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DoAn_QLTV.GUI;
 
 namespace DoAn_QLTV
 {
@@ -222,6 +223,12 @@ namespace DoAn_QLTV
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Report_Docgia rpdg = new Report_Docgia();
+            rpdg.Show();
         }
     }
 

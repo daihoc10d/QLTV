@@ -33,6 +33,7 @@ namespace DoAn_QLTV
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tab1 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
@@ -99,6 +100,7 @@ namespace DoAn_QLTV
             // 
             // tab1
             // 
+            this.tab1.Controls.Add(this.button1);
             this.tab1.Controls.Add(this.btnLoad);
             this.tab1.Controls.Add(this.btnLuu);
             this.tab1.Controls.Add(this.btnThoat);
@@ -121,6 +123,17 @@ namespace DoAn_QLTV
             this.tab1.TabIndex = 0;
             this.tab1.Text = "Lập phiếu mượn";
             this.tab1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(127, 265);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 35);
+            this.button1.TabIndex = 44;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLoad
             // 
@@ -596,5 +609,6 @@ namespace DoAn_QLTV
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Button button1;
     }
 }

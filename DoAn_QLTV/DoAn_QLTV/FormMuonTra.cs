@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DoAn_QLTV.GUI;
 
 namespace DoAn_QLTV
 {
@@ -414,6 +415,12 @@ namespace DoAn_QLTV
         private void btnThoat2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Report_Muontra form = new Report_Muontra();
+            form.Show();
         }
 
         private void btnX_Click(object sender, EventArgs e)

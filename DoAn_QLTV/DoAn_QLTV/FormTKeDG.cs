@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DoAn_QLTV.GUI;
 
 namespace DoAn_QLTV
 {
@@ -66,12 +67,12 @@ namespace DoAn_QLTV
             else loaddata2();
         }
 
-        private void btnXuatExcel_Click(object sender, EventArgs e)
-        {
-            ExportToExcel excel = new ExportToExcel();
-            DataTable dt = (DataTable)dgvTKeDG.DataSource;
-            excel.Export(dt, "Độc giả", "Thống kê độc giả");
-        }
+        //private void btnXuatExcel_Click(object sender, EventArgs e)
+        //{
+        //    ExportToExcel excel = new ExportToExcel();
+        //    DataTable dt = (DataTable)dgvTKeDG.DataSource;
+        //    excel.Export(dt, "Độc giả", "Thống kê độc giả");
+        //}
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
@@ -81,6 +82,12 @@ namespace DoAn_QLTV
         private void btnX_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Report_Docgia form = new Report_Docgia();
+            form.Show();
         }
     }
 }

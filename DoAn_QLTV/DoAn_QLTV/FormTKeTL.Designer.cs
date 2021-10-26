@@ -32,7 +32,7 @@ namespace DoAn_QLTV
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTKeTL));
             this.dgvTKeTL = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnXuatExcel = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tuychon = new System.Windows.Forms.ComboBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnThongKe = new System.Windows.Forms.Button();
@@ -58,7 +58,7 @@ namespace DoAn_QLTV
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnXuatExcel);
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.tuychon);
             this.groupBox1.Controls.Add(this.btnThoat);
             this.groupBox1.Controls.Add(this.btnThongKe);
@@ -71,17 +71,16 @@ namespace DoAn_QLTV
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tùy chọn thống kê";
             // 
-            // btnXuatExcel
+            // button1
             // 
-            this.btnXuatExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXuatExcel.Location = new System.Drawing.Point(489, 26);
-            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(87, 32);
-            this.btnXuatExcel.TabIndex = 41;
-            this.btnXuatExcel.Text = "Xuất Excel";
-            this.btnXuatExcel.UseVisualStyleBackColor = true;
-            this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
+            this.button1.Location = new System.Drawing.Point(621, 26);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 32);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "Report";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tuychon
             // 
@@ -99,7 +98,7 @@ namespace DoAn_QLTV
             // btnThoat
             // 
             this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnThoat.Location = new System.Drawing.Point(582, 26);
+            this.btnThoat.Location = new System.Drawing.Point(504, 26);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(87, 32);
@@ -170,11 +169,11 @@ namespace DoAn_QLTV
 
         private System.Windows.Forms.DataGridView dgvTKeTL;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnXuatExcel;
         private System.Windows.Forms.ComboBox tuychon;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnThongKe;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Button button1;
     }
 }
