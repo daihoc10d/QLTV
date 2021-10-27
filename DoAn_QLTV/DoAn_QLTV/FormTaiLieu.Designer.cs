@@ -120,7 +120,7 @@ namespace DoAn_QLTV
             this.btnLuu.TabIndex = 36;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnXoa_Click);
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnThoat
             // 
@@ -285,7 +285,7 @@ namespace DoAn_QLTV
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvTaiLieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTaiLieu.Location = new System.Drawing.Point(325, 48);
+            this.dgvTaiLieu.Location = new System.Drawing.Point(325, 40);
             this.dgvTaiLieu.Name = "dgvTaiLieu";
             this.dgvTaiLieu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTaiLieu.Size = new System.Drawing.Size(462, 406);

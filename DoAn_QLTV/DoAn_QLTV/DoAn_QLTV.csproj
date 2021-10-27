@@ -175,6 +175,18 @@
     <Compile Include="GUI\Report_Tailieu.Designer.cs">
       <DependentUpon>Report_Tailieu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Report_Tailieudangmuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Report_Tailieudangmuon.Designer.cs">
+      <DependentUpon>Report_Tailieudangmuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Report_Tailieutrehan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Report_Tailieutrehan.Designer.cs">
+      <DependentUpon>Report_Tailieutrehan.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Report_Theloai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +302,14 @@
     <EmbeddedResource Include="GUI\Report_Tailieu.rdlc" />
     <EmbeddedResource Include="GUI\Report_Tailieu.resx">
       <DependentUpon>Report_Tailieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Report_Tailieudangmuon.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Tailieudangmuon.resx">
+      <DependentUpon>Report_Tailieudangmuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Report_Tailieutrehan.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Tailieutrehan.resx">
+      <DependentUpon>Report_Tailieutrehan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_Theloai.rdlc" />
     <EmbeddedResource Include="GUI\Report_Theloai.resx">

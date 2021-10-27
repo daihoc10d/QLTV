@@ -244,7 +244,7 @@ namespace DoAn_QLTV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Report_Tailieu form = new Report_Tailieu();
+            Report_Tailieudangmuon form = new Report_Tailieudangmuon();
             form.Show();
         }
     }

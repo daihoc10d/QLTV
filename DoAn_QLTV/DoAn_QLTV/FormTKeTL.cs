@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DoAn_QLTV.GUI;
+using DoAn_QLTV.Class;
+
 
 namespace DoAn_QLTV
 {
@@ -21,7 +23,6 @@ namespace DoAn_QLTV
         private void FormTKeTL_Load(object sender, EventArgs e)
         {
             tuychon.Text = "Tất cả tài liệu";
-
             loaddata();
         }
         Themsuaxoa t = new Themsuaxoa();
@@ -116,8 +117,25 @@ namespace DoAn_QLTV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Report_Tailieu form = new Report_Tailieu();
-            form.Show();
+            if (tuychon.Text == "Tài liệu đang mượn")
+            {
+                Report_Tailieudangmuon form= new Report_Tailieudangmuon();
+                form.Show();
+            }
+            else if(tuychon.Text == "Tất cả tài liệu")
+                {
+                Report_Tailieu form = new Report_Tailieu();
+                form.Show();
+            }
+            else
+            {
+                Report_Tailieutrehan form = new Report_Tailieutrehan();
+                    form.Show();
+            }   
+        }
+        private void tuychon_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

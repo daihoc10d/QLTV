@@ -138,6 +138,8 @@ insert into TaiLieu values ('TL1', N'Lập trình hướng đối tượng',2010
 insert into TaiLieu values ('TL2', N'Nhập môn lập trình',2011, N'GS', N'TL', 'TT')
 insert into TaiLieu values ('TL3', N'Kỹ Thuật Lập Trình',2001, N'KB', N'GT', 'SG')
 insert into TaiLieu values ('TL4', N'Thiết Kế Phần Mềm',2019, N'GS', N'LT', 'KD')
+insert into TaiLieu values ('TL5', N'Truyện Đô rê mon',2002, N'KB', N'GT', 'KD')
+
 ---	MaPM, MaDG, MaNV
 
 insert into PhieuMuon values ('PM1','DG1','NV01')
@@ -149,7 +151,7 @@ insert into PhieuMuon values ('PM5','DG5','NV03')
 -- 	MaPM 	MaTaiLieu	NgayMuon 	NgayTra	TinhTrang 
 insert into CTPhieuMuon values('PM1','TL3','04/04/2021','04/26/2021',N'RÁCH NHẸ')
 insert into CTPhieuMuon values('PM2','TL4','09/02/2021','09/04/2021',N'CŨ')
-insert into CTPhieuMuon values('PM3','TL3','08/26/2021','09/04/2021',N'TỐT')
+insert into CTPhieuMuon values('PM3','TL5','08/26/2021','09/04/2021',N'TỐT')
 insert into CTPhieuMuon values('PM4','TL1','09/02/2021','09/10/2021',N'MỚI')
 insert into CTPhieuMuon values('PM5','TL2','02/15/2021','04/04/2021',N'TỐT')
 

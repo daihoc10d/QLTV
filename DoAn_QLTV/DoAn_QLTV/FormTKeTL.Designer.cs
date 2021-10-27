@@ -94,6 +94,7 @@ namespace DoAn_QLTV
             this.tuychon.Name = "tuychon";
             this.tuychon.Size = new System.Drawing.Size(237, 24);
             this.tuychon.TabIndex = 40;
+            this.tuychon.SelectedIndexChanged += new System.EventHandler(this.tuychon_SelectedIndexChanged);
             // 
             // btnThoat
             // 

@@ -1,7 +1,7 @@
 ﻿
 namespace DoAn_QLTV.GUI
 {
-    partial class Report_Tailieu
+    partial class Report_Tailieutrehan
     {
         /// <summary>
         /// Required designer variable.
@@ -41,15 +41,15 @@ namespace DoAn_QLTV.GUI
             this.reportViewer1.Size = new System.Drawing.Size(800, 450);
             this.reportViewer1.TabIndex = 0;
             // 
-            // Report_Tailieu
+            // Report_Tailieutrehan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.reportViewer1);
-            this.Name = "Report_Tailieu";
-            this.Text = "Report_Tailieu";
-            this.Load += new System.EventHandler(this.Report_Tailieu_Load);
+            this.Name = "Report_Tailieutrehan";
+            this.Text = "Report_Tailieutrehan";
+            this.Load += new System.EventHandler(this.Report_Tailieutrehan_Load);
             this.ResumeLayout(false);
 
         }
