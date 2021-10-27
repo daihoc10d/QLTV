@@ -19,6 +19,7 @@ namespace DoAn_QLTV.GUI
     public partial class Report_Tailieutrehan : Form
     {
         ModelQLTV dbcontext;
+        Themsuaxoa t = new Themsuaxoa();
 
         public Report_Tailieutrehan()
         {
@@ -40,9 +41,15 @@ namespace DoAn_QLTV.GUI
         public List<Class_rpTailieu> ConvertTailieu(List<CTPhieuMuon> cTPhieuMuons)
         {
             List<Class_rpTailieu> TLList = new List<Class_rpTailieu>();
+            DateTime ngayhnay = DateTime.Now;
+
             for (int i = 0; i < cTPhieuMuons.Count; i++)
             {
+                CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p=>p.MaTaiLieu == cTPhieuMuons[i].MaTaiLieu.ToString());
+                if (com.NgayTra.Date < ngayhnay.Date)
+                {
                     Class_rpTailieu NV = new Class_rpTailieu();
+
                     NV.Matailieu = cTPhieuMuons[i].MaTaiLieu;
                     NV.Tentailieu = cTPhieuMuons[i].TaiLieu.TenTaiLieu;
                     NV.NamXB = (int)cTPhieuMuons[i].TaiLieu.NamXB;
@@ -50,6 +57,7 @@ namespace DoAn_QLTV.GUI
                     NV.Tacgia = cTPhieuMuons[i].TaiLieu.TacGia.TenTG;
                     NV.NXB = cTPhieuMuons[i].TaiLieu.NhaXuatBan.TenNXB;
                     TLList.Add(NV);
+                }
             }
             return TLList;
         }

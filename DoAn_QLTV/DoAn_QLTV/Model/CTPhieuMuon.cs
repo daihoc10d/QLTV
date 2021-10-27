@@ -19,9 +19,9 @@ namespace DoAn_QLTV.Model
         [StringLength(10)]
         public string MaTaiLieu { get; set; }
 
-        public DateTime? NgayMuon { get; set; }
+        public DateTime NgayMuon { get; set; }
 
-        public DateTime? NgayTra { get; set; }
+        public DateTime NgayTra { get; set; }
 
         [StringLength(50)]
         public string TinhTrang { get; set; }
