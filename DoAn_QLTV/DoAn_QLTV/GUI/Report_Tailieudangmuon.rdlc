@@ -17,8 +17,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>0.35292in</Top>
-        <Left>2.49875in</Left>
+        <Top>0.19667in</Top>
+        <Left>2.35292in</Left>
         <Height>0.25in</Height>
         <Width>2.73958in</Width>
         <Style>
@@ -447,8 +447,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet_Tailieudangmuon</DataSetName>
-        <Top>0.67236in</Top>
-        <Left>0.46402in</Left>
+        <Top>0.78694in</Top>
+        <Left>0.46403in</Left>
         <Height>0.55208in</Height>
         <Width>6.05208in</Width>
         <ZIndex>1</ZIndex>

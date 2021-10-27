@@ -145,6 +145,12 @@
     <Compile Include="GUI\Report_Docgia.Designer.cs">
       <DependentUpon>Report_Docgia.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Report_Docgiatrehan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Report_Docgiatrehan.Designer.cs">
+      <DependentUpon>Report_Docgiatrehan.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Report_Muontra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -278,6 +284,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTKTL.resx">
       <DependentUpon>FormTKTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Report_Docgiatrehan.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Docgiatrehan.resx">
+      <DependentUpon>Report_Docgiatrehan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_Tacgia.rdlc" />
     <EmbeddedResource Include="GUI\Report_Docgia.rdlc" />

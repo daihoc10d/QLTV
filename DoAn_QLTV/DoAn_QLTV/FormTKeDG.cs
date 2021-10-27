@@ -86,8 +86,17 @@ namespace DoAn_QLTV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Report_Docgia form = new Report_Docgia();
-            form.Show();
+            if (tuychon.Text == "Tất cả độc giả")
+            {
+                Report_Docgia form = new Report_Docgia();
+                form.Show();
+            }
+            else
+            {
+                Report_Docgiatrehan form1 = new Report_Docgiatrehan();
+                form1.Show();
+            }    
+
         }
     }
 }

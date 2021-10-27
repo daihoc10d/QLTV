@@ -227,6 +227,7 @@ namespace DoAn_QLTV
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             Report_Docgia rpdg = new Report_Docgia();
             rpdg.Show();
         }
