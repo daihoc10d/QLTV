@@ -29,7 +29,7 @@ namespace DoAn_QLTV.GUI
 
         private void Report_Tailieutrehan_Load(object sender, EventArgs e)
         {
-            this.reportViewer1.LocalReport.ReportPath = "Report_Tailieutrehan.rdlc";
+            this.reportViewer1.LocalReport.ReportPath = "./GUI/Report_Tailieutrehan.rdlc";
             var reportDataSource = new ReportDataSource("DataSet_Tailieutrehan",
                 ConvertTailieu(dbcontext.CTPhieuMuons.ToList())); //đúng tên dataset trong thiết kế 
             this.reportViewer1.LocalReport.DataSources.Clear();  //clear  
@@ -42,21 +42,37 @@ namespace DoAn_QLTV.GUI
             List<Class_rpTailieu> TLList = new List<Class_rpTailieu>();
             DateTime ngayhnay = DateTime.Now;
 
-            for (int i = 0; i < cTPhieuMuons.Count; i++)
+            foreach (var item in cTPhieuMuons)
             {
-                CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p=>p.MaTaiLieu == cTPhieuMuons[i].MaTaiLieu.ToString());
-                if (com.NgayTra.Date < ngayhnay.Date)
+                CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p => p.MaTaiLieu == item.MaTaiLieu.ToString());
+                if (com.NgayTra < ngayhnay)
                 {
                     Class_rpTailieu NV = new Class_rpTailieu();
-                    NV.Matailieu = cTPhieuMuons[i].MaTaiLieu;
-                    NV.Tentailieu = cTPhieuMuons[i].TaiLieu.TenTaiLieu;
-                    NV.NamXB = (int)cTPhieuMuons[i].TaiLieu.NamXB;
-                    NV.Theloai = cTPhieuMuons[i].TaiLieu.TheLoai.TenTheLoai;
-                    NV.Tacgia = cTPhieuMuons[i].TaiLieu.TacGia.TenTG;
-                    NV.NXB = cTPhieuMuons[i].TaiLieu.NhaXuatBan.TenNXB;
+                    NV.Matailieu = item.MaTaiLieu;
+                    NV.Tentailieu = item.TaiLieu.TenTaiLieu;
+                    NV.NamXB = (int)item.TaiLieu.NamXB;
+                    NV.Theloai = item.TaiLieu.TheLoai.TenTheLoai;
+                    NV.Tacgia = item.TaiLieu.TacGia.TenTG;
+                    NV.NXB = item.TaiLieu.NhaXuatBan.TenNXB;
                     TLList.Add(NV);
                 }
-            } 
+            }
+
+            //for (int i = 0; i < cTPhieuMuons.Count; i++)
+            //{
+            //    CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p=>p.MaTaiLieu == cTPhieuMuons[i].MaTaiLieu.ToString());
+            //    if (com.NgayTra.Date < ngayhnay.Date)
+            //    {
+            //        Class_rpTailieu NV = new Class_rpTailieu();
+            //        NV.Matailieu = cTPhieuMuons[i].MaTaiLieu;
+            //        NV.Tentailieu = cTPhieuMuons[i].TaiLieu.TenTaiLieu;
+            //        NV.NamXB = (int)cTPhieuMuons[i].TaiLieu.NamXB;
+            //        NV.Theloai = cTPhieuMuons[i].TaiLieu.TheLoai.TenTheLoai;
+            //        NV.Tacgia = cTPhieuMuons[i].TaiLieu.TacGia.TenTG;
+            //        NV.NXB = cTPhieuMuons[i].TaiLieu.NhaXuatBan.TenNXB;
+            //        TLList.Add(NV);
+            //    }
+            //} 
             return TLList;
         }
     }

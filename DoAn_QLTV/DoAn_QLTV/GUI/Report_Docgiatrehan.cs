@@ -28,7 +28,7 @@ namespace DoAn_QLTV.GUI
 
         private void Report_Docgiatrehan_Load(object sender, EventArgs e)
         {
-            this.reportViewer1.LocalReport.ReportPath = "Report_Docgiatrehan.rdlc";
+            this.reportViewer1.LocalReport.ReportPath = "./GUI/Report_Docgiatrehan.rdlc";
             var reportDataSource = new ReportDataSource("DataSet_Docgiatrehan",
                 ConvertDocgia(dbcontext.CTPhieuMuons.ToList())); //đúng tên dataset trong thiết kế 
             this.reportViewer1.LocalReport.DataSources.Clear();  //clear  
@@ -39,21 +39,35 @@ namespace DoAn_QLTV.GUI
         {
             List<Class_rpDocgia> TLList = new List<Class_rpDocgia>();
             DateTime ngayhnay = DateTime.Now;
-
-            for (int i = 0; i < cTPhieuMuons.Count; i++)
+            foreach (var item in cTPhieuMuons)
             {
-                CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p => p.MaTaiLieu == cTPhieuMuons[i].MaTaiLieu.ToString());
-                if (com.NgayTra.Date < ngayhnay.Date)
+                CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p => p.MaTaiLieu == item.MaTaiLieu.ToString());
+                if (com.NgayTra < ngayhnay)
                 {
                     Class_rpDocgia DG = new Class_rpDocgia();
-                    DG.MaDG = cTPhieuMuons[i].PhieuMuon.MaDG;
-                    DG.TenDG = cTPhieuMuons[i].PhieuMuon.DocGia.TenDG;
-                    DG.Ngaysinh = (DateTime)cTPhieuMuons[i].PhieuMuon.DocGia.NgaySinh;
-                    DG.Gioitinh = cTPhieuMuons[i].PhieuMuon.DocGia.GioiTinh;
-                    DG.Lop = cTPhieuMuons[i].PhieuMuon.DocGia.Lop;
+                    DG.MaDG = item.PhieuMuon.MaDG;
+                    DG.TenDG = item.PhieuMuon.DocGia.TenDG;
+                    DG.Ngaysinh = (DateTime)item.PhieuMuon.DocGia.NgaySinh;
+                    DG.Gioitinh = item.PhieuMuon.DocGia.GioiTinh;
+                    DG.Lop = item.PhieuMuon.DocGia.Lop;
                     TLList.Add(DG);
                 }
             }
+
+            //for (int i = 0; i < cTPhieuMuons.Count; i++)
+            //{
+            //    CTPhieuMuon com = dbcontext.CTPhieuMuons.FirstOrDefault(p => p.MaTaiLieu == cTPhieuMuons[i].MaTaiLieu.ToString());
+            //    if (com.NgayTra.Date < ngayhnay.Date)
+            //    {
+            //        Class_rpDocgia DG = new Class_rpDocgia();
+            //        DG.MaDG = cTPhieuMuons[i].PhieuMuon.MaDG;
+            //        DG.TenDG = cTPhieuMuons[i].PhieuMuon.DocGia.TenDG;
+            //        DG.Ngaysinh = (DateTime)cTPhieuMuons[i].PhieuMuon.DocGia.NgaySinh;
+            //        DG.Gioitinh = cTPhieuMuons[i].PhieuMuon.DocGia.GioiTinh;
+            //        DG.Lop = cTPhieuMuons[i].PhieuMuon.DocGia.Lop;
+            //        TLList.Add(DG);
+            //    }
+            //}
             return TLList;
         }
     }

@@ -285,7 +285,9 @@
     <EmbeddedResource Include="FormTKTL.resx">
       <DependentUpon>FormTKTL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Report_Docgiatrehan.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Docgiatrehan.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_Docgiatrehan.resx">
       <DependentUpon>Report_Docgiatrehan.cs</DependentUpon>
     </EmbeddedResource>
@@ -317,7 +319,9 @@
     <EmbeddedResource Include="GUI\Report_Tailieudangmuon.resx">
       <DependentUpon>Report_Tailieudangmuon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Report_Tailieutrehan.rdlc" />
+    <EmbeddedResource Include="GUI\Report_Tailieutrehan.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Report_Tailieutrehan.resx">
       <DependentUpon>Report_Tailieutrehan.cs</DependentUpon>
     </EmbeddedResource>

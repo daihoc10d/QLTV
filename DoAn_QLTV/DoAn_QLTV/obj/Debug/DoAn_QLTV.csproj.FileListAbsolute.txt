@@ -509,3 +509,6 @@ F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
 F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
 F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieutrehan.resources
 F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
+C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc

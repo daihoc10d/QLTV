@@ -29,17 +29,29 @@ namespace DoAn_QLTV.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.Class_rpDocgiaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.Class_rpDocgiaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet_Docgiatrehan";
+            reportDataSource1.Value = this.Class_rpDocgiaBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "DoAn_QLTV.GUI.Report_Docgiatrehan.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(800, 450);
             this.reportViewer1.TabIndex = 0;
+            // 
+            // Class_rpDocgiaBindingSource
+            // 
+            this.Class_rpDocgiaBindingSource.DataSource = typeof(DoAn_QLTV.Class.Class_rpDocgia);
             // 
             // Report_Docgiatrehan
             // 
@@ -50,6 +62,7 @@ namespace DoAn_QLTV.GUI
             this.Name = "Report_Docgiatrehan";
             this.Text = "Report_Docgiatrehan";
             this.Load += new System.EventHandler(this.Report_Docgiatrehan_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Class_rpDocgiaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -57,5 +70,6 @@ namespace DoAn_QLTV.GUI
         #endregion
 
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource Class_rpDocgiaBindingSource;
     }
 }

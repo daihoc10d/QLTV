@@ -6,19 +6,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.06875in</Width>
+              <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.06875in</Width>
+              <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.06875in</Width>
+              <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.06875in</Width>
+              <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.06875in</Width>
+              <Width>1in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -357,7 +357,7 @@
         <Top>0.99875in</Top>
         <Left>0.43625in</Left>
         <Height>0.5in</Height>
-        <Width>5.34375in</Width>
+        <Width>5in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -372,10 +372,7 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH ĐỘC GIẢ TRỄ HẠN</Value>
-                <Style>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
             </TextRuns>
             <Style />
@@ -384,10 +381,7 @@
             <TextRuns>
               <TextRun>
                 <Value />
-                <Style>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
+                <Style />
               </TextRun>
             </TextRuns>
             <Style />
@@ -397,7 +391,7 @@
         <Top>0.25917in</Top>
         <Left>1.67583in</Left>
         <Height>0.44792in</Height>
-        <Width>2.88542in</Width>
+        <Width>2.32292in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
