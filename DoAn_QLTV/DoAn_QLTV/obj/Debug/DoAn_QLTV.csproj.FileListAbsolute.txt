@@ -503,7 +503,6 @@ F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.GenerateResource.cache
 F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.cache
 F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\RdlCompile.compiled
 F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CoreCompileInputs.cache
-F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.csproj.CopyComplete
 F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.exe
 F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.pdb
 F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Tailieudangmuon.resources
@@ -512,3 +511,6 @@ F:\update\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resour
 C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources
 C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
 C:\Users\Loli Power\Desktop\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Docgiatrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\bin\Debug\GUI\Report_Tailieutrehan.rdlc
+F:\QLTV\DoAn_QLTV\DoAn_QLTV\obj\Debug\DoAn_QLTV.GUI.Report_Docgiatrehan.resources

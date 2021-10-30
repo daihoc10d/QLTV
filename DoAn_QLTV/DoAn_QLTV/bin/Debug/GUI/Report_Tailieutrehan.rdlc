@@ -10,7 +10,10 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH TÀI LIỆU TRỄ HẠN</Value>
-                <Style />
+                <Style>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
@@ -18,9 +21,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.23833in</Top>
-        <Left>2.45708in</Left>
+        <Left>1.81125in</Left>
         <Height>0.25in</Height>
-        <Width>2.39583in</Width>
+        <Width>3.04166in</Width>
         <Style>
           <Border>
             <Style>None</Style>
