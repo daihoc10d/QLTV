@@ -10,7 +10,10 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH TÀI LIỆU</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
@@ -18,9 +21,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.18625in</Top>
-        <Left>2.32167in</Left>
-        <Height>0.25in</Height>
-        <Width>2.02083in</Width>
+        <Left>1.76958in</Left>
+        <Height>0.4375in</Height>
+        <Width>3.22916in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -35,16 +38,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.1875in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.25in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.33333in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -66,8 +69,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Mã tài liệu</Value>
-                              <Style />
+                              <Value>Mã TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -96,8 +102,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tên tài liệu</Value>
-                              <Style />
+                              <Value>Tên TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -127,7 +136,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nhà xuất bản</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -157,7 +169,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Năm xuất bản</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -187,7 +202,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Thể loại</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -217,7 +235,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tác giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -448,9 +469,9 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Top>0.8425in</Top>
-        <Left>0.3425in</Left>
+        <Left>0.22791in</Left>
         <Height>0.5in</Height>
-        <Width>6in</Width>
+        <Width>6.77083in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -462,7 +483,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>6.78in</Width>
+  <Width>7.11333in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

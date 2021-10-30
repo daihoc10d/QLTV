@@ -29,6 +29,7 @@ namespace DoAn_QLTV.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Report_Muontra));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 
@@ -47,8 +48,9 @@ namespace DoAn_QLTV.GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Report_Muontra";
-            this.Text = "Report_Muontra";
+            this.Text = "Report Mượn trả";
             this.Load += new System.EventHandler(this.Report_Muontra_Load);
             this.ResumeLayout(false);
 

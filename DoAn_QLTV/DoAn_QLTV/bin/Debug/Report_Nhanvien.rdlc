@@ -10,17 +10,20 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH NHÂN VIÊN </Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>0.3425in</Top>
-        <Left>2.23833in</Left>
-        <Height>0.25in</Height>
-        <Width>2.20834in</Width>
+        <Top>0.2175in</Top>
+        <Left>1.50917in</Left>
+        <Height>0.38542in</Height>
+        <Width>3.50001in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -35,16 +38,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.29167in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.35417in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
-            </TablixColumn>
-            <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.02083in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -52,7 +55,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.375in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -64,7 +67,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Mã nhân viên</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -94,7 +100,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tên nhân viên</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -124,7 +133,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Giới tính</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -154,7 +166,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Ngày sinh</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -184,7 +199,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Địa chỉ</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -385,8 +403,8 @@
         <DataSetName>DataSetNhanvien</DataSetName>
         <Top>1.06125in</Top>
         <Left>0.50917in</Left>
-        <Height>0.5in</Height>
-        <Width>5in</Width>
+        <Height>0.625in</Height>
+        <Width>5.66667in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>

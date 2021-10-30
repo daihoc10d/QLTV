@@ -10,17 +10,19 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH MƯỢN TRẢ</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>0.29042in</Top>
-        <Left>3.28in</Left>
-        <Height>0.25in</Height>
-        <Width>2.125in</Width>
+        <Left>2.905in</Left>
+        <Height>0.375in</Height>
+        <Width>4.125in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -70,7 +72,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Mã Phiếu</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -99,8 +104,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tên tác giả</Value>
-                              <Style />
+                              <Value>Tên độc giả</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -129,8 +137,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Nhân viên</Value>
-                              <Style />
+                              <Value>Nhân viên PT</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -160,7 +171,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tài liệu</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -190,7 +204,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Ngày mượn</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -220,7 +237,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Ngày trả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -250,7 +270,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tình trạng</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -513,8 +536,8 @@
         <DataSetName>DataSet_Muontra</DataSetName>
         <Top>0.67584in</Top>
         <Left>0.10292in</Left>
-        <Height>0.70833in</Height>
-        <Width>8.875in</Width>
+        <Height>0.70834in</Height>
+        <Width>8.87502in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>

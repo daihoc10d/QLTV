@@ -11,7 +11,7 @@
               <TextRun>
                 <Value>DANH SÁCH TÀI LIỆU TRỄ HẠN</Value>
                 <Style>
-                  <FontSize>12pt</FontSize>
+                  <FontSize>20pt</FontSize>
                   <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
@@ -21,9 +21,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.23833in</Top>
-        <Left>1.81125in</Left>
-        <Height>0.25in</Height>
-        <Width>3.04166in</Width>
+        <Left>1.12375in</Left>
+        <Height>0.39583in</Height>
+        <Width>4.47916in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -41,13 +41,13 @@
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.13542in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.34374in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.35417in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -58,7 +58,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.33333in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -69,8 +69,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Matailieu</Value>
-                              <Style />
+                              <Value>Mã TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -99,8 +102,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Matailieu</Value>
-                              <Style />
+                              <Value>Tên TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -129,8 +135,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>NXB</Value>
-                              <Style />
+                              <Value>Nhà xuất bản</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -159,8 +168,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Nam XB</Value>
-                              <Style />
+                              <Value>Năm xuất bản</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -189,8 +201,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Theloai</Value>
-                              <Style />
+                              <Value>Thể loại</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -219,8 +234,23 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tacgia</Value>
-                              <Style />
+                              <Value>Tác giả</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -277,21 +307,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Matailieu1">
+                    <Textbox Name="Tentailieu">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Matailieu.Value</Value>
+                              <Value>=Fields!Tentailieu.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Matailieu1</rd:DefaultName>
+                      <rd:DefaultName>Tentailieu</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -452,8 +482,8 @@
         <DataSetName>DataSet_Tailieutrehan</DataSetName>
         <Top>0.79042in</Top>
         <Left>0.12375in</Left>
-        <Height>0.5in</Height>
-        <Width>6in</Width>
+        <Height>0.58333in</Height>
+        <Width>6.83333in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -465,7 +495,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>7.06124in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

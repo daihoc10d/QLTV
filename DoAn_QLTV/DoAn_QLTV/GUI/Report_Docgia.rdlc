@@ -23,7 +23,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.32292in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -35,7 +35,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Mã Độc giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -65,7 +68,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tên Độc giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -95,7 +101,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Ngày sinh</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -113,6 +122,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -125,7 +135,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Giới tính</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -155,7 +168,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Lớp</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -356,8 +372,8 @@
         <DataSetName>DataSet_Docgia</DataSetName>
         <Top>1.04042in</Top>
         <Left>0.41125in</Left>
-        <Height>0.5in</Height>
-        <Width>5.85417in</Width>
+        <Height>0.57292in</Height>
+        <Width>5.85415in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -373,7 +389,8 @@
               <TextRun>
                 <Value>DANH SÁCH ĐỘC GIẢ</Value>
                 <Style>
-                  <FontSize>25pt</FontSize>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
             </TextRuns>

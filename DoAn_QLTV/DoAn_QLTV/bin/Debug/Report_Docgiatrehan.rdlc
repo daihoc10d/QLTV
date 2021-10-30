@@ -6,19 +6,19 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.06875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.06875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.06875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.06875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.06875in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -357,7 +357,7 @@
         <Top>0.99875in</Top>
         <Left>0.43625in</Left>
         <Height>0.5in</Height>
-        <Width>5in</Width>
+        <Width>5.34375in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -372,7 +372,10 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH ĐỘC GIẢ TRỄ HẠN</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
@@ -381,17 +384,20 @@
             <TextRuns>
               <TextRun>
                 <Value />
-                <Style />
+                <Style>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox7</rd:DefaultName>
-        <Top>0.25917in</Top>
-        <Left>1.67583in</Left>
+        <Top>0.13417in</Top>
+        <Left>0.94666in</Left>
         <Height>0.44792in</Height>
-        <Width>2.32292in</Width>
+        <Width>5.36459in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -407,7 +413,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>6.5in</Width>
+  <Width>7.04042in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

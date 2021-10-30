@@ -10,7 +10,10 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH TÀI LIỆU ĐANG MƯỢN</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
@@ -18,9 +21,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.19667in</Top>
-        <Left>2.35292in</Left>
-        <Height>0.25in</Height>
-        <Width>2.73958in</Width>
+        <Left>1.36334in</Left>
+        <Height>0.39583in</Height>
+        <Width>4.96875in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -35,16 +38,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.01736in</Width>
+              <Width>1.13194in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01736in</Width>
+              <Width>1.15278in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.01736in</Width>
+              <Width>1.34028in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.35417in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -55,7 +58,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.27604in</Height>
+              <Height>0.28646in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -66,8 +69,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Mã tài liệu</Value>
-                              <Style />
+                              <Value>Mã TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -96,8 +102,11 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Tên tài liệu</Value>
-                              <Style />
+                              <Value>Tên TL</Value>
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -127,7 +136,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nhà xuất bản</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -157,7 +169,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Năm xuất bản</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -187,7 +202,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Thể loại</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -217,7 +235,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tác giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -449,8 +470,8 @@
         <DataSetName>DataSet_Tailieudangmuon</DataSetName>
         <Top>0.78694in</Top>
         <Left>0.46403in</Left>
-        <Height>0.55208in</Height>
-        <Width>6.05208in</Width>
+        <Height>0.5625in</Height>
+        <Width>6.97916in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -462,7 +483,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>7.29042in</Width>
+  <Width>7.59944in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

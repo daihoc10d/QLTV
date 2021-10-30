@@ -10,17 +10,20 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH TÁC GIẢ</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>0.2175in</Top>
-        <Left>1.85292in</Left>
-        <Height>0.25in</Height>
-        <Width>1.76042in</Width>
+        <Top>0.14458in</Top>
+        <Left>1.04042in</Left>
+        <Height>0.32292in</Height>
+        <Width>3.15972in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -55,7 +58,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Mã tác giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -85,7 +91,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tên tác giả</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -193,7 +202,7 @@
         <DataSetName>DataSetTacgia</DataSetName>
         <Top>0.71403in</Top>
         <Left>0.28in</Left>
-        <Height>0.58681in</Height>
+        <Height>0.5868in</Height>
         <Width>4.73264in</Width>
         <ZIndex>1</ZIndex>
         <Style>

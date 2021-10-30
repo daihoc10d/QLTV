@@ -29,6 +29,7 @@ namespace DoAn_QLTV.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Report_Docgia));
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
             // 
@@ -49,8 +50,9 @@ namespace DoAn_QLTV.GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.reportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Report_Docgia";
-            this.Text = "Report_Docgia";
+            this.Text = "Report Độc giả";
             this.Load += new System.EventHandler(this.Report_Docgia_Load);
             this.ResumeLayout(false);
 

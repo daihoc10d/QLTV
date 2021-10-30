@@ -10,17 +10,20 @@
             <TextRuns>
               <TextRun>
                 <Value>DANH SÁCH THỂ LOẠI</Value>
-                <Style />
+                <Style>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
               </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>0.17583in</Top>
-        <Left>2.28in</Left>
-        <Height>0.25in</Height>
-        <Width>2.19792in</Width>
+        <Top>0.12375in</Top>
+        <Left>1.74875in</Left>
+        <Height>0.39583in</Height>
+        <Width>3.29167in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -43,7 +46,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.23438in</Height>
+              <Height>0.3073in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -55,7 +58,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Mã thể loại</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -85,7 +91,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tên thể loại</Value>
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -94,7 +103,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value />
-                              <Style />
+                              <Style>
+                                <FontSize>15pt</FontSize>
+                                <Color>Blue</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -202,8 +214,8 @@
         <DataSetName>DataSetTheloai</DataSetName>
         <Top>0.63417in</Top>
         <Left>0.26958in</Left>
-        <Height>0.46875in</Height>
-        <Width>6.04167in</Width>
+        <Height>0.54168in</Height>
+        <Width>6.04166in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
